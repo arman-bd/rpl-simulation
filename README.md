@@ -73,7 +73,7 @@ RPL Simulation
 ...
 ...
 ```
-(Output)[output.txt]
+<a href="output.txt">Output</a>
 
 ## Documentation
 **TBD**
