@@ -1,64 +1,61 @@
-# RPL Protocol Simulation with SimPy
+# RPL Simulation
 
-This project simulates the Routing Protocol for Low-Power and Lossy Networks (RPL) using the process-based discrete-event simulation framework SimPy. The main goal is to model the behavior of nodes within an RPL network and their interactions through the use of standard RPL messages (DIO, DIS, and DAO) for the establishment and maintenance of a DODAG.
+This project simulates the Routing over Low Power and Lossy Networks (RPL) protocol using the SimPy discrete event simulation framework. The simulation is designed to visualize the Dynamic Objective Directed Acyclic Graph (DODAG) formation process using RPL's DIS, DIO, and DAO messaging mechanisms.
 
-## Features
+## Overview
 
-- **Neighbor Discovery**: Nodes can discover their immediate neighbors, emulating the physical layer of a real IoT network.
-- **DODAG Formation**: Nodes use DIO messages to form a Destination-Oriented Directed Acyclic Graph based on simulated metrics.
-- **DAO Propagation**: The simulation includes the propagation of DAO messages for upward routing within the network.
-- **Trickle Timer**: An implementation of the Trickle algorithm to efficiently manage the transmission of control messages.
+The simulation models a network of nodes distributed within a defined area. Each node attempts to discover neighbors and build a routing structure based on the RPL protocol specifications. The key features demonstrated include neighbor discovery, DODAG formation, and network prefix distribution using DAO messages.
 
-## Getting Started
+## Simulation Details
 
-### Prerequisites
+- **Random Seed**: Customizable to achieve different random node distributions.
+- **Number of Nodes**: 50
+- **Area Dimensions**: 125m x 125m
+- **Connection Range**: Each node has a connection range of 25 meters.
+- **DIO Interval**: DIO messages are sent every 5 seconds.
+- **Node Creation Interval**: Nodes are created with a 1-second interval between each to simulate gradual network population.
 
-- Python 3.6 or newer
+### Key Components
 
-### Installation
+- **Node**: Represents a network device participating in the RPL network.
+  - Each node broadcasts a DIS message upon creation to discover neighbors.
+  - Nodes respond to DIS messages from other nodes within their connection range with a DIO message.
+  - The network topology is established based on the reception of DIO messages, where nodes select their parent to form the DODAG structure.
+  - DAO messages are used to propagate routing prefix information up the DODAG.
 
-Install SimPy using pip:
+- **Trickle Algorithm**: Implemented to manage the timing of DIS messages, increasing efficiency and reducing network chatter.
 
-```sh
-pip install simpy
+## Requirements
+
+- Python 3.6 or higher
+- SimPy
+- Matplotlib
+
+## Usage
+
+To run the simulation, execute the script `simulation.py`:
+
+```bash
+python simulation.py
 ```
 
-Running the Simulation
-To run the simulation, navigate to the project directory and run:
+The simulation will generate a plot showing the node distribution and the DODAG connections. Additionally, diagnostic outputs including node creation, neighbor discovery, and message exchanges are printed to the console and saved to a file named simulation.txt.
 
-```sh
-python rpl_simulation.py
-```
+## Visualization
+The generated plot will illustrate nodes as points on a grid with lines connecting them to represent parent-child relationships in the DODAG. Each node's ID and the IPv6 prefix are displayed next to the corresponding node on the plot.
 
-### Simulation Design
-The simulation consists of the following components:
+## Output
+* A PNG image of the node distribution and connections named output.png.
+* A detailed log of the simulation process saved to output.txt, including timestamped events such as DIS and DIO message exchanges, and DAO message propagation.
 
-- **Node**: Represents a network node with the ability to send and receive RPL messages.
-- **Network**: Manages the collection of nodes and simulates the network layer.
-
-Nodes in the network periodically send DIO messages to build a DODAG. The simulation currently assigns random ranks to nodes for demonstration purposes.
-
-## Contributing
-If you would like to contribute to the development of this RPL simulation, please follow these steps:
-
-- Fork the repository.
-- Create your feature branch (`git checkout -b feature/amazing-feature`).
-- Commit your changes (`git commit -m 'Added Some Amazing Feature'`).
-- Push to the branch (`git push origin feature/amazing-feature`).
-- Open a Pull Request.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Documentation
+**TBD**
 
 ## Authors
-Arman Hossain - Initial work - github.com/arman-bd
+[Arman](https://github.com/arman-bd) and Team
+
+## License
+This project is licensed under the MIT License.
 
 ## Acknowledgments
-- SimPy Developers for the fantastic simulation framework.
-- The IETF for the specifications of the RPL protocol.
-- Contributors and maintainers of RFC 6550 and RFC 6206.
-
-## References
-- [SimPy Documentation](https://simpy.readthedocs.io/)
-- RFC 6550 - RPL: IPv6 Routing Protocol for Low-Power and Lossy Networks
-- RFC 6206 - The Trickle Algorithm
+[Aarhus University](https://au.dk) - For providing the academic environment and guidance necessary for this project.
