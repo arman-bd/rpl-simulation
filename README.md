@@ -44,9 +44,33 @@ The simulation will generate a plot showing the node distribution and the DODAG 
 ## Visualization
 The generated plot will illustrate nodes as points on a grid with lines connecting them to represent parent-child relationships in the DODAG. Each node's ID and the IPv6 prefix are displayed next to the corresponding node on the plot.
 
+
+
 ## Output
 * A PNG image of the node distribution and connections named output.png.
 * A detailed log of the simulation process saved to output.txt, including timestamped events such as DIS and DIO message exchanges, and DAO message propagation.
+
+### Sample Output:
+
+<img src="output.png">
+
+```text
+RPL Simulation
+0.00 Node00 created at (2.654, 9.3297)
+0.00 Node00 sends initial DIS broadcast for neighbor discovery
+0.00 Node00 sends DIO to neighbors
+1.00 Node01 created at (29.1376, 47.7352)
+1.00 Node01 sends initial DIS broadcast for neighbor discovery
+1.00 Node01 sends DIO to neighbors
+2.00 Node02 created at (75.3866, 114.8086)
+2.00 Node02 sends initial DIS broadcast for neighbor discovery
+2.00 Node02 sends DIO to neighbors
+3.00 Node03 created at (0.4701, 116.6502)
+3.00 Node03 sends initial DIS broadcast for neighbor discovery
+3.00 Node03 sends DIO to neighbors
+4.00 Node04 created at (119.0886, 1.7474)
+4.00 Node04 sends initial DIS broadcast for neighbor discovery
+```
 
 ## Documentation
 **TBD**
