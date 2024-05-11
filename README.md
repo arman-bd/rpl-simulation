@@ -70,7 +70,10 @@ RPL Simulation
 3.00 Node03 sends DIO to neighbors
 4.00 Node04 created at (119.0886, 1.7474)
 4.00 Node04 sends initial DIS broadcast for neighbor discovery
+...
+...
 ```
+(Output)[output.txt]
 
 ## Documentation
 **TBD**
