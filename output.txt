@@ -1,0 +1,2081 @@
+0.00 Node00 created at (103.3963, 26.5954)
+0.00 Node00 starting neighbor discovery
+1.00 Node01 created at (21.2037, 24.2015)
+1.00 Node01 starting neighbor discovery
+1.00 Node00 sends DIS broadcast for neighbor discovery
+2.00 Node02 created at (27.5986, 89.5239)
+2.00 Node02 starting neighbor discovery
+2.00 Node01 sends DIS broadcast for neighbor discovery
+2.28 Node00 sends DIS broadcast for neighbor discovery
+3.00 Node03 created at (108.8647, 95.1618)
+3.00 Node03 starting neighbor discovery
+3.00 Node02 sends DIS broadcast for neighbor discovery
+3.57 Node01 sends DIS broadcast for neighbor discovery
+4.00 Node04 created at (78.3705, 118.4513)
+4.00 Node04 starting neighbor discovery
+4.00 Node03 sends DIS broadcast for neighbor discovery
+4.50 Node00 sends DIS broadcast for neighbor discovery
+4.64 Node01 sends DIS broadcast for neighbor discovery
+4.94 Node02 sends DIS broadcast for neighbor discovery
+5.00 Node05 created at (21.0677, 121.0056)
+5.00 Node05 starting neighbor discovery
+5.00 Node04 sends DIS broadcast for neighbor discovery
+5.11 Node03 sends DIS broadcast for neighbor discovery
+6.00 Node06 created at (85.9161, 59.6546)
+6.00 Node06 starting neighbor discovery
+6.00 Node05 sends DIS broadcast for neighbor discovery
+6.69 Node04 sends DIS broadcast for neighbor discovery
+6.73 Node01 sends DIS broadcast for neighbor discovery
+7.00 Node07 created at (5.919, 7.1864)
+7.00 Node07 starting neighbor discovery
+7.00 Node06 sends DIS broadcast for neighbor discovery
+7.76 Node05 sends DIS broadcast for neighbor discovery
+8.00 Node08 created at (122.6794, 49.8932)
+8.00 Node08 starting neighbor discovery
+8.00 Node07 sends DIS broadcast for neighbor discovery
+8.25 Node02 sends DIS broadcast for neighbor discovery
+8.72 Node06 sends DIS broadcast for neighbor discovery
+8.82 Node03 sends DIS broadcast for neighbor discovery
+9.00 Node09 created at (116.9684, 51.7511)
+9.00 Node09 starting neighbor discovery
+9.00 Node09 received DIS from Node08; new neighbor: Node08
+9.00 Node08 sends DAO to Node09, Prefix: 2001:db8::09:08
+9.00 Node08 sends DIS broadcast for neighbor discovery
+9.00 Node08 received DIO from Node09; new parent: Node09; new prefix: 2001:db8::09:08
+9.10 Node09 sends DIS to Node08
+9.42 Node04 sends DIS broadcast for neighbor discovery
+9.84 Node07 sends DIS broadcast for neighbor discovery
+10.00 Node10 created at (69.0724, 48.5622)
+10.00 Node10 starting neighbor discovery
+10.17 Node01 sends DIS broadcast for neighbor discovery
+10.20 Node05 sends DIS broadcast for neighbor discovery
+10.28 Node00 sends DIS broadcast for neighbor discovery
+11.00 Node11 created at (60.5022, 115.3978)
+11.00 Node11 starting neighbor discovery
+11.00 Node10 sends DIS broadcast for neighbor discovery
+11.10 Node11 sends DIS to Node04
+11.10 Node04 received DIS from Node11; new neighbor: Node11
+11.10 Node11 sends DAO to Node04, Prefix: 2001:db8::04:0b
+11.10 Node11 received DIO from Node04; new parent: Node04; new prefix: 2001:db8::04:0b
+11.13 Node06 sends DIS broadcast for neighbor discovery
+11.17 Node01 network disruption
+11.17 Node01 starting neighbor discovery
+11.23 Node03 sends DIS broadcast for neighbor discovery
+11.65 Node07 sends DIS broadcast for neighbor discovery
+12.00 Node12 created at (111.0901, 43.0115)
+12.00 Node12 starting neighbor discovery
+12.10 Node12 sends DIS to Node00
+12.10 Node12 sends DIS to Node08
+12.10 Node12 sends DIS to Node09
+12.10 Node00 received DIS from Node12; new neighbor: Node12
+12.10 Node08 received DIS from Node12; new neighbor: Node12
+12.10 Node09 received DIS from Node12; new neighbor: Node12
+12.10 Node12 sends DAO to Node09, Prefix: 2001:db8::09:0c
+12.10 Node12 sends DAO to Node09, Prefix: 2001:db8::09:0c
+12.10 Node12 sends DAO to Node09, Prefix: 2001:db8::09:0c
+12.10 Node12 received DIO from Node00; new parent: Node00; new prefix: 2001:db8::09:0c
+12.10 Node12 received DIO from Node08; new closer parent: Node08; new prefix: 2001:db8::09:0c
+12.10 Node12 received DIO from Node09; new closer parent: Node09; new prefix: 2001:db8::09:0c
+12.23 Node10 sends DIS broadcast for neighbor discovery
+12.74 Node06 sends DIS broadcast for neighbor discovery
+13.00 Node13 created at (58.4065, 23.9079)
+13.00 Node13 starting neighbor discovery
+13.87 Node06 sends DIS broadcast for neighbor discovery
+14.00 Node04 sends DIO to Node11
+14.00 Node14 created at (55.2771, 103.5844)
+14.00 Node14 starting neighbor discovery
+14.00 Node13 sends DIS broadcast for neighbor discovery
+14.10 Node14 sends DIS to Node11
+14.10 Node11 received DIS from Node14; new neighbor: Node14
+14.10 Node14 sends DAO to Node11, Prefix: 2001:db8::04:0b:0e
+14.10 Node11 received DAO from Node14, Prefix: 2001:db8::04:0b:0e
+14.10 Node14 received DIO from Node11; new parent: Node11; new prefix: 2001:db8::04:0b:0e
+14.64 Node02 sends DIS broadcast for neighbor discovery
+15.00 Node15 created at (38.2143, 37.3959)
+15.00 Node15 starting neighbor discovery
+15.13 Node05 sends DIS broadcast for neighbor discovery
+15.23 Node13 sends DIS broadcast for neighbor discovery
+15.49 Node10 sends DIS broadcast for neighbor discovery
+16.00 Node16 created at (76.0717, 65.5435)
+16.00 Node16 starting neighbor discovery
+16.00 Node15 network disruption
+16.00 Node15 starting neighbor discovery
+16.00 Node15 sends DIS broadcast for neighbor discovery
+16.10 Node16 sends DIS to Node06
+16.10 Node16 sends DIS to Node10
+16.10 Node06 received DIS from Node16; new neighbor: Node16
+16.10 Node10 received DIS from Node16; new neighbor: Node16
+16.10 Node16 sends DAO to Node06, Prefix: 2001:db8::06:10
+16.10 Node16 received DIO from Node06; new parent: Node06; new prefix: 2001:db8::06:10
+16.51 Node01 sends DIS broadcast for neighbor discovery
+16.67 Node07 sends DIS broadcast for neighbor discovery
+16.87 Node02 sends DIS broadcast for neighbor discovery
+16.99 Node13 sends DIS broadcast for neighbor discovery
+17.00 Node17 created at (88.9944, 29.3439)
+17.00 Node17 starting neighbor discovery
+17.01 Node15 sends DIS broadcast for neighbor discovery
+17.10 Node17 sends DIS to Node00
+17.10 Node00 received DIS from Node17; new neighbor: Node17
+17.10 Node17 sends DAO to Node00, Prefix: 2001:db8::00:11
+17.10 Node17 received DIO from Node00; new parent: Node00; new prefix: 2001:db8::00:11
+18.00 Node08 sends DIO to Node09
+18.00 Node08 sends DIO to Node12
+18.00 Node09 sends DAO to Node08, Prefix: 2001:db8::09:08:09
+18.00 Node18 created at (57.0892, 33.4979)
+18.00 Node18 starting neighbor discovery
+18.00 Node09 received DIO from Node08; new parent: Node08; new prefix: 2001:db8::09:08:09
+18.10 Node18 sends DIS to Node10
+18.10 Node18 sends DIS to Node13
+18.10 Node18 sends DIS to Node15
+18.10 Node10 received DIS from Node18; new neighbor: Node18
+18.10 Node13 received DIS from Node18; new neighbor: Node18
+18.10 Node15 received DIS from Node18; new neighbor: Node18
+18.10 Node18 sends DAO to Node13, Prefix: 2001:db8::0d:12
+18.10 Node18 sends DAO to Node13, Prefix: 2001:db8::0d:12
+18.10 Node18 received DIO from Node10; new parent: Node10; new prefix: 2001:db8::0d:12
+18.10 Node18 received DIO from Node13; new closer parent: Node13; new prefix: 2001:db8::0d:12
+18.18 Node01 sends DIS broadcast for neighbor discovery
+19.00 Node09 sends DIO to Node08
+19.00 Node09 sends DIO to Node12
+19.00 Node19 created at (117.5921, 77.2373)
+19.00 Node19 starting neighbor discovery
+19.10 Node19 sends DIS to Node03
+19.10 Node03 received DIS from Node19; new neighbor: Node19
+19.10 Node19 sends DAO to Node03, Prefix: 2001:db8::03:13
+19.10 Node19 received DIO from Node03; new parent: Node03; new prefix: 2001:db8::03:13
+20.00 Node00 sends DIO to Node12
+20.00 Node00 sends DIO to Node17
+20.00 Node10 sends DIO to Node16
+20.00 Node10 sends DIO to Node18
+20.00 Node20 created at (83.2993, 10.5636)
+20.00 Node20 starting neighbor discovery
+20.10 Node20 sends DIS to Node17
+20.10 Node17 received DIS from Node20; new neighbor: Node20
+20.10 Node20 sends DAO to Node17, Prefix: 2001:db8::00:11:14
+20.10 Node17 received DAO from Node20, Prefix: 2001:db8::00:11:14
+20.10 Node20 received DIO from Node17; new parent: Node17; new prefix: 2001:db8::00:11:14
+21.00 Node11 sends DIO to Node04
+21.00 Node11 sends DIO to Node14
+21.00 Node04 sends DAO to Node11, Prefix: 2001:db8::04:0b:04
+21.00 Node21 created at (8.8492, 120.8408)
+21.00 Node21 starting neighbor discovery
+21.00 Node04 received DIO from Node11; new parent: Node11; new prefix: 2001:db8::04:0b:04
+21.10 Node21 sends DIS to Node05
+21.10 Node05 received DIS from Node21; new neighbor: Node21
+21.10 Node21 sends DAO to Node05, Prefix: 2001:db8::05:15
+21.10 Node21 received DIO from Node05; new parent: Node05; new prefix: 2001:db8::05:15
+21.33 Node02 sends DIS broadcast for neighbor discovery
+22.00 Node12 sends DIO to Node00
+22.00 Node12 sends DIO to Node08
+22.00 Node12 sends DIO to Node09
+22.00 Node00 sends DAO to Node12, Prefix: 2001:db8::09:0c:00
+22.00 Node12 received DAO from Node00, Prefix: 2001:db8::09:0c:00
+22.00 Node09 received DAO from Node12, Prefix: 2001:db8::09:0c:00
+22.00 Node22 created at (50.4912, 105.3994)
+22.00 Node22 starting neighbor discovery
+22.00 Node00 received DIO from Node12; new parent: Node12; new prefix: 2001:db8::09:0c:00
+22.06 Node07 sends DIS broadcast for neighbor discovery
+22.10 Node22 sends DIS to Node11
+22.10 Node22 sends DIS to Node14
+22.10 Node11 received DIS from Node22; new neighbor: Node22
+22.10 Node14 received DIS from Node22; new neighbor: Node22
+22.10 Node22 sends DAO to Node14, Prefix: 2001:db8::04:0b:0e:16
+22.10 Node22 sends DAO to Node14, Prefix: 2001:db8::04:0b:0e:16
+22.10 Node14 received DAO from Node22, Prefix: 2001:db8::04:0b:0e:16
+22.10 Node14 received DAO from Node22, Prefix: 2001:db8::04:0b:0e:16
+22.10 Node11 received DAO from Node14, Prefix: 2001:db8::04:0b:0e:16
+22.10 Node11 received DAO from Node14, Prefix: 2001:db8::04:0b:0e:16
+22.10 Node22 received DIO from Node11; new parent: Node11; new prefix: 2001:db8::04:0b:0e:16
+22.10 Node22 received DIO from Node14; new closer parent: Node14; new prefix: 2001:db8::04:0b:0e:16
+22.62 Node01 sends DIS broadcast for neighbor discovery
+23.00 Node03 sends DIO to Node19
+23.00 Node13 sends DIO to Node18
+23.00 Node23 created at (96.0684, 1.3477)
+23.00 Node23 starting neighbor discovery
+23.10 Node23 sends DIS to Node20
+23.10 Node20 received DIS from Node23; new neighbor: Node23
+23.10 Node23 sends DAO to Node20, Prefix: 2001:db8::00:11:14:17
+23.10 Node20 received DAO from Node23, Prefix: 2001:db8::00:11:14:17
+23.10 Node17 received DAO from Node20, Prefix: 2001:db8::00:11:14:17
+23.10 Node00 received DAO from Node17, Prefix: 2001:db8::00:11:14:17
+23.10 Node12 received DAO from Node00, Prefix: 2001:db8::00:11:14:17
+23.10 Node09 received DAO from Node12, Prefix: 2001:db8::00:11:14:17
+23.10 Node23 received DIO from Node20; new parent: Node20; new prefix: 2001:db8::00:11:14:17
+24.00 Node04 sends DIO to Node11
+24.00 Node14 sends DIO to Node11
+24.00 Node14 sends DIO to Node22
+24.00 Node11 sends DAO to Node14, Prefix: 2001:db8::04:0b:0e:16:0b
+24.00 Node24 created at (2.3002, 109.5408)
+24.00 Node24 starting neighbor discovery
+24.00 Node11 received DIO from Node14; new closer parent: Node14; new prefix: 2001:db8::04:0b:0e:16:0b
+24.10 Node24 sends DIS to Node21
+24.10 Node21 received DIS from Node24; new neighbor: Node24
+24.10 Node24 sends DAO to Node21, Prefix: 2001:db8::05:15:18
+24.10 Node21 received DAO from Node24, Prefix: 2001:db8::05:15:18
+24.10 Node24 received DIO from Node21; new parent: Node21; new prefix: 2001:db8::05:15:18
+25.00 Node05 sends DIO to Node21
+25.00 Node15 sends DIO to Node18
+25.00 Node25 created at (88.3867, 24.1573)
+25.00 Node25 starting neighbor discovery
+25.10 Node25 sends DIS to Node00
+25.10 Node25 sends DIS to Node17
+25.10 Node25 sends DIS to Node20
+25.10 Node00 received DIS from Node25; new neighbor: Node25
+25.10 Node17 received DIS from Node25; new neighbor: Node25
+25.10 Node20 received DIS from Node25; new neighbor: Node25
+25.10 Node25 sends DAO to Node17, Prefix: 2001:db8::00:11:14:17:19
+25.10 Node25 sends DAO to Node17, Prefix: 2001:db8::00:11:14:17:19
+25.10 Node17 received DAO from Node25, Prefix: 2001:db8::00:11:14:17:19
+25.10 Node17 received DAO from Node25, Prefix: 2001:db8::00:11:14:17:19
+25.10 Node00 received DAO from Node17, Prefix: 2001:db8::00:11:14:17:19
+25.10 Node00 received DAO from Node17, Prefix: 2001:db8::00:11:14:17:19
+25.10 Node12 received DAO from Node00, Prefix: 2001:db8::00:11:14:17:19
+25.10 Node12 received DAO from Node00, Prefix: 2001:db8::00:11:14:17:19
+25.10 Node09 received DAO from Node12, Prefix: 2001:db8::00:11:14:17:19
+25.10 Node09 received DAO from Node12, Prefix: 2001:db8::00:11:14:17:19
+25.10 Node25 received DIO from Node00; new parent: Node00; new prefix: 2001:db8::00:11:14:17:19
+25.10 Node25 received DIO from Node17; new closer parent: Node17; new prefix: 2001:db8::00:11:14:17:19
+26.00 Node06 sends DIO to Node16
+26.00 Node16 sends DIO to Node06
+26.00 Node16 sends DIO to Node10
+26.00 Node06 sends DAO to Node16, Prefix: 2001:db8::06:10:06
+26.00 Node10 sends DAO to Node16, Prefix: 2001:db8::06:10:0a
+26.00 Node16 received DAO from Node10, Prefix: 2001:db8::06:10:0a
+26.00 Node26 created at (94.3993, 12.8692)
+26.00 Node26 starting neighbor discovery
+26.00 Node06 received DIO from Node16; new parent: Node16; new prefix: 2001:db8::06:10:06
+26.00 Node10 received DIO from Node16; new parent: Node16; new prefix: 2001:db8::06:10:0a
+26.10 Node26 sends DIS to Node00
+26.10 Node26 sends DIS to Node17
+26.10 Node26 sends DIS to Node20
+26.10 Node26 sends DIS to Node23
+26.10 Node26 sends DIS to Node25
+26.10 Node00 received DIS from Node26; new neighbor: Node26
+26.10 Node17 received DIS from Node26; new neighbor: Node26
+26.10 Node20 received DIS from Node26; new neighbor: Node26
+26.10 Node23 received DIS from Node26; new neighbor: Node26
+26.10 Node25 received DIS from Node26; new neighbor: Node26
+26.10 Node26 sends DAO to Node20, Prefix: 2001:db8::00:11:14:17:1a
+26.10 Node26 sends DAO to Node20, Prefix: 2001:db8::00:11:14:17:1a
+26.10 Node20 received DAO from Node26, Prefix: 2001:db8::00:11:14:17:1a
+26.10 Node20 received DAO from Node26, Prefix: 2001:db8::00:11:14:17:1a
+26.10 Node17 received DAO from Node20, Prefix: 2001:db8::00:11:14:17:1a
+26.10 Node17 received DAO from Node20, Prefix: 2001:db8::00:11:14:17:1a
+26.10 Node00 received DAO from Node17, Prefix: 2001:db8::00:11:14:17:1a
+26.10 Node00 received DAO from Node17, Prefix: 2001:db8::00:11:14:17:1a
+26.10 Node12 received DAO from Node00, Prefix: 2001:db8::00:11:14:17:1a
+26.10 Node12 received DAO from Node00, Prefix: 2001:db8::00:11:14:17:1a
+26.10 Node09 received DAO from Node12, Prefix: 2001:db8::00:11:14:17:1a
+26.10 Node09 received DAO from Node12, Prefix: 2001:db8::00:11:14:17:1a
+26.10 Node26 received DIO from Node00; new parent: Node00; new prefix: 2001:db8::00:11:14:17:1a
+26.10 Node26 received DIO from Node20; new closer parent: Node20; new prefix: 2001:db8::00:11:14:17:1a
+27.00 Node17 sends DIO to Node00
+27.00 Node17 sends DIO to Node20
+27.00 Node17 sends DIO to Node25
+27.00 Node17 sends DIO to Node26
+27.00 Node00 sends DAO to Node17, Prefix: 2001:db8::00:11:14:17:1a:00
+27.00 Node27 created at (12.7762, 38.6462)
+27.00 Node27 starting neighbor discovery
+27.00 Node00 received DIO from Node17; new closer parent: Node17; new prefix: 2001:db8::00:11:14:17:1a:00
+27.10 Node27 sends DIS to Node01
+27.10 Node01 received DIS from Node27; new neighbor: Node27
+27.10 Node27 sends DAO to Node01, Prefix: 2001:db8::01:1b
+27.10 Node27 received DIO from Node01; new parent: Node01; new prefix: 2001:db8::01:1b
+28.00 Node08 sends DIO to Node09
+28.00 Node08 sends DIO to Node12
+28.00 Node18 sends DIO to Node10
+28.00 Node18 sends DIO to Node13
+28.00 Node18 sends DIO to Node15
+28.00 Node13 sends DAO to Node18, Prefix: 2001:db8::0d:12:0d
+28.00 Node15 sends DAO to Node18, Prefix: 2001:db8::0d:12:0f
+28.00 Node18 received DAO from Node15, Prefix: 2001:db8::0d:12:0f
+28.00 Node28 created at (111.3015, 78.6512)
+28.00 Node28 starting neighbor discovery
+28.00 Node13 received DIO from Node18; new parent: Node18; new prefix: 2001:db8::0d:12:0d
+28.00 Node15 received DIO from Node18; new parent: Node18; new prefix: 2001:db8::0d:12:0f
+28.10 Node28 sends DIS to Node03
+28.10 Node28 sends DIS to Node19
+28.10 Node03 received DIS from Node28; new neighbor: Node28
+28.10 Node19 received DIS from Node28; new neighbor: Node28
+28.10 Node28 sends DAO to Node19, Prefix: 2001:db8::03:13:1c
+28.10 Node28 sends DAO to Node19, Prefix: 2001:db8::03:13:1c
+28.10 Node19 received DAO from Node28, Prefix: 2001:db8::03:13:1c
+28.10 Node19 received DAO from Node28, Prefix: 2001:db8::03:13:1c
+28.10 Node28 received DIO from Node03; new parent: Node03; new prefix: 2001:db8::03:13:1c
+28.10 Node28 received DIO from Node19; new closer parent: Node19; new prefix: 2001:db8::03:13:1c
+29.00 Node09 sends DIO to Node08
+29.00 Node09 sends DIO to Node12
+29.00 Node19 sends DIO to Node03
+29.00 Node19 sends DIO to Node28
+29.00 Node03 sends DAO to Node19, Prefix: 2001:db8::03:13:03
+29.00 Node29 created at (42.7842, 113.4936)
+29.00 Node29 starting neighbor discovery
+29.00 Node03 received DIO from Node19; new parent: Node19; new prefix: 2001:db8::03:13:03
+29.10 Node29 sends DIS to Node11
+29.10 Node29 sends DIS to Node14
+29.10 Node29 sends DIS to Node22
+29.10 Node11 received DIS from Node29; new neighbor: Node29
+29.10 Node14 received DIS from Node29; new neighbor: Node29
+29.10 Node22 received DIS from Node29; new neighbor: Node29
+29.10 Node29 sends DAO to Node22, Prefix: 2001:db8::04:0b:0e:16:1d
+29.10 Node29 sends DAO to Node22, Prefix: 2001:db8::04:0b:0e:16:1d
+29.10 Node29 sends DAO to Node22, Prefix: 2001:db8::04:0b:0e:16:1d
+29.10 Node22 received DAO from Node29, Prefix: 2001:db8::04:0b:0e:16:1d
+29.10 Node22 received DAO from Node29, Prefix: 2001:db8::04:0b:0e:16:1d
+29.10 Node22 received DAO from Node29, Prefix: 2001:db8::04:0b:0e:16:1d
+29.10 Node14 received DAO from Node22, Prefix: 2001:db8::04:0b:0e:16:1d
+29.10 Node14 received DAO from Node22, Prefix: 2001:db8::04:0b:0e:16:1d
+29.10 Node14 received DAO from Node22, Prefix: 2001:db8::04:0b:0e:16:1d
+29.10 Node29 received DIO from Node11; new parent: Node11; new prefix: 2001:db8::04:0b:0e:16:1d
+29.10 Node29 received DIO from Node14; new closer parent: Node14; new prefix: 2001:db8::04:0b:0e:16:1d
+29.10 Node29 received DIO from Node22; new closer parent: Node22; new prefix: 2001:db8::04:0b:0e:16:1d
+29.46 Node07 sends DIS broadcast for neighbor discovery
+29.60 Node02 sends DIS broadcast for neighbor discovery
+30.00 Node00 sends DIO to Node12
+30.00 Node00 sends DIO to Node17
+30.00 Node00 sends DIO to Node25
+30.00 Node00 sends DIO to Node26
+30.00 Node10 sends DIO to Node16
+30.00 Node10 sends DIO to Node18
+30.00 Node20 sends DIO to Node17
+30.00 Node20 sends DIO to Node23
+30.00 Node20 sends DIO to Node25
+30.00 Node20 sends DIO to Node26
+30.00 Node30 created at (115.8192, 34.3971)
+30.00 Node30 starting neighbor discovery
+30.10 Node30 sends DIS to Node00
+30.10 Node30 sends DIS to Node08
+30.10 Node30 sends DIS to Node09
+30.10 Node30 sends DIS to Node12
+30.10 Node00 received DIS from Node30; new neighbor: Node30
+30.10 Node08 received DIS from Node30; new neighbor: Node30
+30.10 Node09 received DIS from Node30; new neighbor: Node30
+30.10 Node12 received DIS from Node30; new neighbor: Node30
+30.10 Node30 sends DAO to Node12, Prefix: 2001:db8::00:11:14:17:1a:1e
+30.10 Node30 sends DAO to Node12, Prefix: 2001:db8::00:11:14:17:1a:1e
+30.10 Node12 received DAO from Node30, Prefix: 2001:db8::00:11:14:17:1a:1e
+30.10 Node12 received DAO from Node30, Prefix: 2001:db8::00:11:14:17:1a:1e
+30.10 Node09 received DAO from Node12, Prefix: 2001:db8::00:11:14:17:1a:1e
+30.10 Node09 received DAO from Node12, Prefix: 2001:db8::00:11:14:17:1a:1e
+30.10 Node30 received DIO from Node00; new parent: Node00; new prefix: 2001:db8::00:11:14:17:1a:1e
+30.10 Node30 received DIO from Node12; new closer parent: Node12; new prefix: 2001:db8::00:11:14:17:1a:1e
+30.79 Node20 network disruption
+30.79 Node20 starting neighbor discovery
+30.89 Node20 sends DIS to Node17
+30.89 Node20 sends DIS to Node23
+30.89 Node20 sends DIS to Node25
+30.89 Node20 sends DIS to Node26
+30.89 Node17 received DIS from Node20; new neighbor: Node20
+30.89 Node23 received DIS from Node20; new neighbor: Node20
+30.89 Node25 received DIS from Node20; new neighbor: Node20
+30.89 Node26 received DIS from Node20; new neighbor: Node20
+30.89 Node20 sends DAO to Node26, Prefix: 2001:db8::00:11:14:17:1a:14
+30.89 Node20 sends DAO to Node26, Prefix: 2001:db8::00:11:14:17:1a:14
+30.89 Node20 sends DAO to Node26, Prefix: 2001:db8::00:11:14:17:1a:14
+30.89 Node20 received DIO from Node23; new closer parent: Node23; new prefix: 2001:db8::00:11:14:17:1a:14
+30.89 Node20 received DIO from Node25; new closer parent: Node25; new prefix: 2001:db8::00:11:14:17:1a:14
+30.89 Node20 received DIO from Node26; new closer parent: Node26; new prefix: 2001:db8::00:11:14:17:1a:14
+30.99 Node02 sends DIS broadcast for neighbor discovery
+31.00 Node01 sends DIO to Node27
+31.00 Node11 sends DIO to Node04
+31.00 Node11 sends DIO to Node14
+31.00 Node11 sends DIO to Node22
+31.00 Node11 sends DIO to Node29
+31.00 Node21 sends DIO to Node05
+31.00 Node21 sends DIO to Node24
+31.00 Node05 sends DAO to Node21, Prefix: 2001:db8::05:15:05
+31.00 Node31 created at (12.4806, 70.7956)
+31.00 Node31 starting neighbor discovery
+31.00 Node05 received DIO from Node21; new parent: Node21; new prefix: 2001:db8::05:15:05
+32.00 Node12 sends DIO to Node00
+32.00 Node12 sends DIO to Node08
+32.00 Node12 sends DIO to Node09
+32.00 Node12 sends DIO to Node30
+32.00 Node22 sends DIO to Node11
+32.00 Node22 sends DIO to Node14
+32.00 Node22 sends DIO to Node29
+32.00 Node14 sends DAO to Node22, Prefix: 2001:db8::04:0b:0e:16:1d:0e
+32.00 Node32 created at (33.5797, 118.9456)
+32.00 Node32 starting neighbor discovery
+32.00 Node31 sends DIS broadcast for neighbor discovery
+32.00 Node14 received DIO from Node22; new closer parent: Node22; new prefix: 2001:db8::04:0b:0e:16:1d:0e
+32.10 Node32 sends DIS to Node05
+32.10 Node32 sends DIS to Node29
+32.10 Node05 received DIS from Node32; new neighbor: Node32
+32.10 Node29 received DIS from Node32; new neighbor: Node32
+32.10 Node32 sends DAO to Node29, Prefix: 2001:db8::04:0b:0e:16:1d:20
+32.10 Node32 sends DAO to Node29, Prefix: 2001:db8::04:0b:0e:16:1d:20
+32.10 Node29 received DAO from Node32, Prefix: 2001:db8::04:0b:0e:16:1d:20
+32.10 Node29 received DAO from Node32, Prefix: 2001:db8::04:0b:0e:16:1d:20
+32.10 Node22 received DAO from Node29, Prefix: 2001:db8::04:0b:0e:16:1d:20
+32.10 Node22 received DAO from Node29, Prefix: 2001:db8::04:0b:0e:16:1d:20
+32.10 Node32 received DIO from Node05; new parent: Node05; new prefix: 2001:db8::04:0b:0e:16:1d:20
+32.10 Node32 received DIO from Node29; new closer parent: Node29; new prefix: 2001:db8::04:0b:0e:16:1d:20
+33.00 Node03 sends DIO to Node19
+33.00 Node03 sends DIO to Node28
+33.00 Node13 sends DIO to Node18
+33.00 Node23 sends DIO to Node26
+33.00 Node23 sends DIO to Node20
+33.00 Node33 created at (1.6461, 101.095)
+33.00 Node33 starting neighbor discovery
+33.10 Node33 sends DIS to Node24
+33.10 Node24 received DIS from Node33; new neighbor: Node33
+33.10 Node33 sends DAO to Node24, Prefix: 2001:db8::05:15:18:21
+33.10 Node24 received DAO from Node33, Prefix: 2001:db8::05:15:18:21
+33.10 Node21 received DAO from Node24, Prefix: 2001:db8::05:15:18:21
+33.10 Node33 received DIO from Node24; new parent: Node24; new prefix: 2001:db8::05:15:18:21
+33.81 Node31 sends DIS broadcast for neighbor discovery
+34.00 Node04 sends DIO to Node11
+34.00 Node14 sends DIO to Node11
+34.00 Node14 sends DIO to Node22
+34.00 Node14 sends DIO to Node29
+34.00 Node24 sends DIO to Node21
+34.00 Node24 sends DIO to Node33
+34.00 Node34 created at (124.6385, 90.1702)
+34.00 Node34 starting neighbor discovery
+34.10 Node34 sends DIS to Node03
+34.10 Node34 sends DIS to Node19
+34.10 Node34 sends DIS to Node28
+34.10 Node03 received DIS from Node34; new neighbor: Node34
+34.10 Node19 received DIS from Node34; new neighbor: Node34
+34.10 Node28 received DIS from Node34; new neighbor: Node34
+34.10 Node34 sends DAO to Node19, Prefix: 2001:db8::03:13:22
+34.10 Node34 sends DAO to Node19, Prefix: 2001:db8::03:13:22
+34.10 Node19 received DAO from Node34, Prefix: 2001:db8::03:13:22
+34.10 Node19 received DAO from Node34, Prefix: 2001:db8::03:13:22
+34.10 Node34 received DIO from Node03; new parent: Node03; new prefix: 2001:db8::03:13:22
+34.10 Node34 received DIO from Node19; new closer parent: Node19; new prefix: 2001:db8::03:13:22
+35.00 Node05 sends DIO to Node21
+35.00 Node05 sends DIO to Node32
+35.00 Node15 sends DIO to Node18
+35.00 Node25 sends DIO to Node00
+35.00 Node25 sends DIO to Node17
+35.00 Node25 sends DIO to Node26
+35.00 Node25 sends DIO to Node20
+35.00 Node17 sends DAO to Node25, Prefix: 2001:db8::00:11:14:17:19:11
+35.00 Node35 created at (73.4029, 9.3342)
+35.00 Node35 starting neighbor discovery
+35.00 Node17 received DIO from Node25; new closer parent: Node25; new prefix: 2001:db8::00:11:14:17:19:11
+35.10 Node35 sends DIS to Node20
+35.10 Node20 received DIS from Node35; new neighbor: Node35
+35.10 Node35 sends DAO to Node20, Prefix: 2001:db8::00:11:14:17:1a:14:23
+35.10 Node20 received DAO from Node35, Prefix: 2001:db8::00:11:14:17:1a:14:23
+35.10 Node35 received DIO from Node20; new parent: Node20; new prefix: 2001:db8::00:11:14:17:1a:14:23
+36.00 Node06 sends DIO to Node16
+36.00 Node16 sends DIO to Node06
+36.00 Node16 sends DIO to Node10
+36.00 Node26 sends DIO to Node00
+36.00 Node26 sends DIO to Node17
+36.00 Node26 sends DIO to Node23
+36.00 Node26 sends DIO to Node25
+36.00 Node26 sends DIO to Node20
+36.00 Node23 sends DAO to Node26, Prefix: 2001:db8::00:11:14:17:1a:17
+36.00 Node26 received DAO from Node23, Prefix: 2001:db8::00:11:14:17:1a:17
+36.00 Node36 created at (119.9264, 16.9008)
+36.00 Node36 starting neighbor discovery
+36.00 Node23 received DIO from Node26; new closer parent: Node26; new prefix: 2001:db8::00:11:14:17:1a:17
+36.10 Node36 sends DIS to Node00
+36.10 Node36 sends DIS to Node30
+36.10 Node00 received DIS from Node36; new neighbor: Node36
+36.10 Node30 received DIS from Node36; new neighbor: Node36
+36.10 Node36 sends DAO to Node30, Prefix: 2001:db8::00:11:14:17:1a:1e:24
+36.10 Node36 sends DAO to Node30, Prefix: 2001:db8::00:11:14:17:1a:1e:24
+36.10 Node30 received DAO from Node36, Prefix: 2001:db8::00:11:14:17:1a:1e:24
+36.10 Node30 received DAO from Node36, Prefix: 2001:db8::00:11:14:17:1a:1e:24
+36.10 Node12 received DAO from Node30, Prefix: 2001:db8::00:11:14:17:1a:1e:24
+36.10 Node12 received DAO from Node30, Prefix: 2001:db8::00:11:14:17:1a:1e:24
+36.10 Node09 received DAO from Node12, Prefix: 2001:db8::00:11:14:17:1a:1e:24
+36.10 Node09 received DAO from Node12, Prefix: 2001:db8::00:11:14:17:1a:1e:24
+36.10 Node36 received DIO from Node00; new parent: Node00; new prefix: 2001:db8::00:11:14:17:1a:1e:24
+36.10 Node36 received DIO from Node30; new closer parent: Node30; new prefix: 2001:db8::00:11:14:17:1a:1e:24
+36.27 Node07 sends DIS broadcast for neighbor discovery
+36.52 Node04 network disruption
+36.52 Node04 starting neighbor discovery
+36.62 Node04 sends DIS to Node11
+36.62 Node11 received DIS from Node04; new neighbor: Node04
+36.99 Node31 sends DIS broadcast for neighbor discovery
+37.00 Node17 sends DIO to Node00
+37.00 Node17 sends DIO to Node25
+37.00 Node17 sends DIO to Node26
+37.00 Node17 sends DIO to Node20
+37.00 Node27 sends DIO to Node01
+37.00 Node01 sends DAO to Node27, Prefix: 2001:db8::01:1b:01
+37.00 Node37 created at (8.5164, 90.396)
+37.00 Node37 starting neighbor discovery
+37.00 Node01 received DIO from Node27; new parent: Node27; new prefix: 2001:db8::01:1b:01
+37.10 Node37 sends DIS to Node02
+37.10 Node37 sends DIS to Node31
+37.10 Node37 sends DIS to Node33
+37.10 Node02 received DIS from Node37; new neighbor: Node37
+37.10 Node31 received DIS from Node37; new neighbor: Node37
+37.10 Node33 received DIS from Node37; new neighbor: Node37
+37.10 Node37 sends DAO to Node33, Prefix: 2001:db8::05:15:18:21:25
+37.10 Node37 sends DAO to Node33, Prefix: 2001:db8::05:15:18:21:25
+37.10 Node33 received DAO from Node37, Prefix: 2001:db8::05:15:18:21:25
+37.10 Node33 received DAO from Node37, Prefix: 2001:db8::05:15:18:21:25
+37.10 Node24 received DAO from Node33, Prefix: 2001:db8::05:15:18:21:25
+37.10 Node24 received DAO from Node33, Prefix: 2001:db8::05:15:18:21:25
+37.10 Node21 received DAO from Node24, Prefix: 2001:db8::05:15:18:21:25
+37.10 Node21 received DAO from Node24, Prefix: 2001:db8::05:15:18:21:25
+37.10 Node37 received DIO from Node02; new parent: Node02; new prefix: 2001:db8::05:15:18:21:25
+37.10 Node37 received DIO from Node33; new closer parent: Node33; new prefix: 2001:db8::05:15:18:21:25
+38.00 Node08 sends DIO to Node09
+38.00 Node08 sends DIO to Node12
+38.00 Node08 sends DIO to Node30
+38.00 Node18 sends DIO to Node10
+38.00 Node18 sends DIO to Node13
+38.00 Node18 sends DIO to Node15
+38.00 Node28 sends DIO to Node03
+38.00 Node28 sends DIO to Node19
+38.00 Node28 sends DIO to Node34
+38.00 Node03 sends DAO to Node28, Prefix: 2001:db8::03:13:1c:03
+38.00 Node19 sends DAO to Node28, Prefix: 2001:db8::03:13:1c:13
+38.00 Node28 received DAO from Node03, Prefix: 2001:db8::03:13:1c:03
+38.00 Node38 created at (41.0184, 10.6764)
+38.00 Node38 starting neighbor discovery
+38.00 Node03 received DIO from Node28; new closer parent: Node28; new prefix: 2001:db8::03:13:1c:03
+38.00 Node19 received DIO from Node28; new closer parent: Node28; new prefix: 2001:db8::03:13:1c:13
+39.00 Node09 sends DIO to Node08
+39.00 Node09 sends DIO to Node12
+39.00 Node09 sends DIO to Node30
+39.00 Node19 sends DIO to Node03
+39.00 Node19 sends DIO to Node28
+39.00 Node19 sends DIO to Node34
+39.00 Node29 sends DIO to Node11
+39.00 Node29 sends DIO to Node14
+39.00 Node29 sends DIO to Node22
+39.00 Node29 sends DIO to Node32
+39.00 Node39 created at (120.6623, 121.1964)
+39.00 Node39 starting neighbor discovery
+39.00 Node38 sends DIS broadcast for neighbor discovery
+39.37 Node07 sends DIS broadcast for neighbor discovery
+39.38 Node10 network disruption
+39.38 Node10 starting neighbor discovery
+39.48 Node10 sends DIS to Node16
+39.48 Node10 sends DIS to Node18
+39.48 Node16 received DIS from Node10; new neighbor: Node10
+39.48 Node18 received DIS from Node10; new neighbor: Node10
+40.00 Node00 sends DIO to Node12
+40.00 Node00 sends DIO to Node17
+40.00 Node00 sends DIO to Node25
+40.00 Node00 sends DIO to Node26
+40.00 Node00 sends DIO to Node30
+40.00 Node00 sends DIO to Node36
+40.00 Node10 sends DIO to Node16
+40.00 Node10 sends DIO to Node18
+40.00 Node20 sends DIO to Node17
+40.00 Node20 sends DIO to Node23
+40.00 Node20 sends DIO to Node25
+40.00 Node20 sends DIO to Node26
+40.00 Node20 sends DIO to Node35
+40.00 Node30 sends DIO to Node00
+40.00 Node30 sends DIO to Node08
+40.00 Node30 sends DIO to Node09
+40.00 Node30 sends DIO to Node12
+40.00 Node30 sends DIO to Node36
+40.00 Node12 sends DAO to Node30, Prefix: 2001:db8::00:11:14:17:1a:1e:24:0c
+40.00 Node40 created at (122.0863, 111.7648)
+40.00 Node40 starting neighbor discovery
+40.00 Node40 received DIS from Node39; new neighbor: Node39
+40.00 Node39 sends DAO to Node40, Prefix: 2001:db8::28:27
+40.00 Node39 sends DIS broadcast for neighbor discovery
+40.00 Node12 received DIO from Node30; new closer parent: Node30; new prefix: 2001:db8::00:11:14:17:1a:1e:24:0c
+40.00 Node39 received DIO from Node40; new parent: Node40; new prefix: 2001:db8::28:27
+40.10 Node40 sends DIS to Node39
+40.69 Node38 sends DIS broadcast for neighbor discovery
+41.00 Node01 sends DIO to Node27
+41.00 Node11 sends DIO to Node14
+41.00 Node11 sends DIO to Node22
+41.00 Node11 sends DIO to Node29
+41.00 Node11 sends DIO to Node04
+41.00 Node21 sends DIO to Node05
+41.00 Node21 sends DIO to Node24
+41.00 Node31 sends DIO to Node37
+41.00 Node41 created at (30.1899, 107.2012)
+41.00 Node41 starting neighbor discovery
+41.10 Node41 sends DIS to Node02
+41.10 Node41 sends DIS to Node05
+41.10 Node41 sends DIS to Node29
+41.10 Node41 sends DIS to Node32
+41.10 Node02 received DIS from Node41; new neighbor: Node41
+41.10 Node05 received DIS from Node41; new neighbor: Node41
+41.10 Node29 received DIS from Node41; new neighbor: Node41
+41.10 Node32 received DIS from Node41; new neighbor: Node41
+41.10 Node41 sends DAO to Node32, Prefix: 2001:db8::04:0b:0e:16:1d:20:29
+41.10 Node41 sends DAO to Node32, Prefix: 2001:db8::04:0b:0e:16:1d:20:29
+41.10 Node41 sends DAO to Node32, Prefix: 2001:db8::04:0b:0e:16:1d:20:29
+41.10 Node41 sends DAO to Node32, Prefix: 2001:db8::04:0b:0e:16:1d:20:29
+41.10 Node32 received DAO from Node41, Prefix: 2001:db8::04:0b:0e:16:1d:20:29
+41.10 Node32 received DAO from Node41, Prefix: 2001:db8::04:0b:0e:16:1d:20:29
+41.10 Node32 received DAO from Node41, Prefix: 2001:db8::04:0b:0e:16:1d:20:29
+41.10 Node32 received DAO from Node41, Prefix: 2001:db8::04:0b:0e:16:1d:20:29
+41.10 Node29 received DAO from Node32, Prefix: 2001:db8::04:0b:0e:16:1d:20:29
+41.10 Node29 received DAO from Node32, Prefix: 2001:db8::04:0b:0e:16:1d:20:29
+41.10 Node29 received DAO from Node32, Prefix: 2001:db8::04:0b:0e:16:1d:20:29
+41.10 Node29 received DAO from Node32, Prefix: 2001:db8::04:0b:0e:16:1d:20:29
+41.10 Node22 received DAO from Node29, Prefix: 2001:db8::04:0b:0e:16:1d:20:29
+41.10 Node22 received DAO from Node29, Prefix: 2001:db8::04:0b:0e:16:1d:20:29
+41.10 Node22 received DAO from Node29, Prefix: 2001:db8::04:0b:0e:16:1d:20:29
+41.10 Node22 received DAO from Node29, Prefix: 2001:db8::04:0b:0e:16:1d:20:29
+41.10 Node41 received DIO from Node02; new parent: Node02; new prefix: 2001:db8::04:0b:0e:16:1d:20:29
+41.10 Node41 received DIO from Node05; new closer parent: Node05; new prefix: 2001:db8::04:0b:0e:16:1d:20:29
+41.10 Node41 received DIO from Node29; new closer parent: Node29; new prefix: 2001:db8::04:0b:0e:16:1d:20:29
+41.10 Node41 received DIO from Node32; new closer parent: Node32; new prefix: 2001:db8::04:0b:0e:16:1d:20:29
+41.74 Node38 sends DIS broadcast for neighbor discovery
+42.00 Node02 sends DIO to Node37
+42.00 Node02 sends DIO to Node41
+42.00 Node12 sends DIO to Node00
+42.00 Node12 sends DIO to Node08
+42.00 Node12 sends DIO to Node09
+42.00 Node12 sends DIO to Node30
+42.00 Node22 sends DIO to Node11
+42.00 Node22 sends DIO to Node14
+42.00 Node22 sends DIO to Node29
+42.00 Node32 sends DIO to Node05
+42.00 Node32 sends DIO to Node29
+42.00 Node32 sends DIO to Node41
+42.00 Node29 sends DAO to Node32, Prefix: 2001:db8::04:0b:0e:16:1d:20:29:1d
+42.00 Node42 created at (65.6626, 44.2433)
+42.00 Node42 starting neighbor discovery
+42.00 Node29 received DIO from Node32; new closer parent: Node32; new prefix: 2001:db8::04:0b:0e:16:1d:20:29:1d
+42.10 Node42 sends DIS to Node10
+42.10 Node42 sends DIS to Node18
+42.10 Node10 received DIS from Node42; new neighbor: Node42
+42.10 Node18 received DIS from Node42; new neighbor: Node42
+42.10 Node42 sends DAO to Node10, Prefix: 2001:db8::06:10:0a:2a
+42.10 Node10 received DAO from Node42, Prefix: 2001:db8::06:10:0a:2a
+42.10 Node16 received DAO from Node10, Prefix: 2001:db8::06:10:0a:2a
+42.10 Node42 received DIO from Node10; new parent: Node10; new prefix: 2001:db8::06:10:0a:2a
+43.00 Node03 sends DIO to Node19
+43.00 Node03 sends DIO to Node28
+43.00 Node03 sends DIO to Node34
+43.00 Node13 sends DIO to Node18
+43.00 Node23 sends DIO to Node26
+43.00 Node23 sends DIO to Node20
+43.00 Node33 sends DIO to Node24
+43.00 Node33 sends DIO to Node37
+43.00 Node24 sends DAO to Node33, Prefix: 2001:db8::05:15:18:21:25:18
+43.00 Node43 created at (102.9192, 51.098)
+43.00 Node43 starting neighbor discovery
+43.00 Node24 received DIO from Node33; new closer parent: Node33; new prefix: 2001:db8::05:15:18:21:25:18
+43.10 Node43 sends DIS to Node06
+43.10 Node43 sends DIS to Node08
+43.10 Node43 sends DIS to Node09
+43.10 Node43 sends DIS to Node12
+43.10 Node06 received DIS from Node43; new neighbor: Node43
+43.10 Node08 received DIS from Node43; new neighbor: Node43
+43.10 Node09 received DIS from Node43; new neighbor: Node43
+43.10 Node12 received DIS from Node43; new neighbor: Node43
+43.10 Node43 sends DAO to Node12, Prefix: 2001:db8::00:11:14:17:1a:1e:24:0c:2b
+43.10 Node43 sends DAO to Node12, Prefix: 2001:db8::00:11:14:17:1a:1e:24:0c:2b
+43.10 Node43 sends DAO to Node12, Prefix: 2001:db8::00:11:14:17:1a:1e:24:0c:2b
+43.10 Node12 received DAO from Node43, Prefix: 2001:db8::00:11:14:17:1a:1e:24:0c:2b
+43.10 Node12 received DAO from Node43, Prefix: 2001:db8::00:11:14:17:1a:1e:24:0c:2b
+43.10 Node12 received DAO from Node43, Prefix: 2001:db8::00:11:14:17:1a:1e:24:0c:2b
+43.10 Node43 received DIO from Node06; new parent: Node06; new prefix: 2001:db8::00:11:14:17:1a:1e:24:0c:2b
+43.10 Node43 received DIO from Node09; new closer parent: Node09; new prefix: 2001:db8::00:11:14:17:1a:1e:24:0c:2b
+43.10 Node43 received DIO from Node12; new closer parent: Node12; new prefix: 2001:db8::00:11:14:17:1a:1e:24:0c:2b
+44.00 Node04 sends DIO to Node11
+44.00 Node14 sends DIO to Node11
+44.00 Node14 sends DIO to Node22
+44.00 Node14 sends DIO to Node29
+44.00 Node24 sends DIO to Node21
+44.00 Node24 sends DIO to Node33
+44.00 Node34 sends DIO to Node03
+44.00 Node34 sends DIO to Node19
+44.00 Node34 sends DIO to Node28
+44.00 Node03 sends DAO to Node34, Prefix: 2001:db8::03:13:22:03
+44.00 Node34 received DAO from Node03, Prefix: 2001:db8::03:13:22:03
+44.00 Node19 received DAO from Node34, Prefix: 2001:db8::03:13:22:03
+44.00 Node44 created at (70.9956, 114.9008)
+44.00 Node44 starting neighbor discovery
+44.00 Node03 received DIO from Node34; new closer parent: Node34; new prefix: 2001:db8::03:13:22:03
+44.10 Node44 sends DIS to Node04
+44.10 Node44 sends DIS to Node11
+44.10 Node44 sends DIS to Node14
+44.10 Node04 received DIS from Node44; new neighbor: Node44
+44.10 Node11 received DIS from Node44; new neighbor: Node44
+44.10 Node14 received DIS from Node44; new neighbor: Node44
+44.10 Node44 sends DAO to Node04, Prefix: 2001:db8::04:0b:04:2c
+44.10 Node04 received DAO from Node44, Prefix: 2001:db8::04:0b:04:2c
+44.10 Node11 received DAO from Node04, Prefix: 2001:db8::04:0b:04:2c
+44.10 Node14 received DAO from Node11, Prefix: 2001:db8::04:0b:04:2c
+44.10 Node44 received DIO from Node04; new parent: Node04; new prefix: 2001:db8::04:0b:04:2c
+45.00 Node05 sends DIO to Node21
+45.00 Node05 sends DIO to Node32
+45.00 Node05 sends DIO to Node41
+45.00 Node15 sends DIO to Node18
+45.00 Node25 sends DIO to Node00
+45.00 Node25 sends DIO to Node17
+45.00 Node25 sends DIO to Node26
+45.00 Node25 sends DIO to Node20
+45.00 Node35 sends DIO to Node20
+45.00 Node20 sends DAO to Node35, Prefix: 2001:db8::00:11:14:17:1a:14:23:14
+45.00 Node45 created at (120.3987, 62.5644)
+45.00 Node45 starting neighbor discovery
+45.00 Node20 received DIO from Node35; new closer parent: Node35; new prefix: 2001:db8::00:11:14:17:1a:14:23:14
+45.10 Node45 sends DIS to Node08
+45.10 Node45 sends DIS to Node09
+45.10 Node45 sends DIS to Node19
+45.10 Node45 sends DIS to Node28
+45.10 Node08 received DIS from Node45; new neighbor: Node45
+45.10 Node09 received DIS from Node45; new neighbor: Node45
+45.10 Node19 received DIS from Node45; new neighbor: Node45
+45.10 Node28 received DIS from Node45; new neighbor: Node45
+45.10 Node45 sends DAO to Node09, Prefix: 2001:db8::09:08:09:2d
+45.10 Node45 sends DAO to Node09, Prefix: 2001:db8::09:08:09:2d
+45.10 Node09 received DAO from Node45, Prefix: 2001:db8::09:08:09:2d
+45.10 Node09 received DAO from Node45, Prefix: 2001:db8::09:08:09:2d
+45.10 Node45 received DIO from Node08; new parent: Node08; new prefix: 2001:db8::09:08:09:2d
+45.10 Node45 received DIO from Node09; new closer parent: Node09; new prefix: 2001:db8::09:08:09:2d
+46.00 Node06 sends DIO to Node16
+46.00 Node06 sends DIO to Node43
+46.00 Node16 sends DIO to Node06
+46.00 Node16 sends DIO to Node10
+46.00 Node26 sends DIO to Node00
+46.00 Node26 sends DIO to Node17
+46.00 Node26 sends DIO to Node23
+46.00 Node26 sends DIO to Node25
+46.00 Node26 sends DIO to Node20
+46.00 Node36 sends DIO to Node00
+46.00 Node36 sends DIO to Node30
+46.00 Node46 created at (49.7379, 50.6993)
+46.00 Node46 starting neighbor discovery
+46.10 Node46 sends DIS to Node10
+46.10 Node46 sends DIS to Node15
+46.10 Node46 sends DIS to Node18
+46.10 Node46 sends DIS to Node42
+46.10 Node10 received DIS from Node46; new neighbor: Node46
+46.10 Node15 received DIS from Node46; new neighbor: Node46
+46.10 Node18 received DIS from Node46; new neighbor: Node46
+46.10 Node42 received DIS from Node46; new neighbor: Node46
+46.10 Node46 sends DAO to Node42, Prefix: 2001:db8::06:10:0a:2a:2e
+46.10 Node46 sends DAO to Node42, Prefix: 2001:db8::06:10:0a:2a:2e
+46.10 Node46 sends DAO to Node42, Prefix: 2001:db8::06:10:0a:2a:2e
+46.10 Node42 received DAO from Node46, Prefix: 2001:db8::06:10:0a:2a:2e
+46.10 Node42 received DAO from Node46, Prefix: 2001:db8::06:10:0a:2a:2e
+46.10 Node42 received DAO from Node46, Prefix: 2001:db8::06:10:0a:2a:2e
+46.10 Node10 received DAO from Node42, Prefix: 2001:db8::06:10:0a:2a:2e
+46.10 Node10 received DAO from Node42, Prefix: 2001:db8::06:10:0a:2a:2e
+46.10 Node10 received DAO from Node42, Prefix: 2001:db8::06:10:0a:2a:2e
+46.10 Node16 received DAO from Node10, Prefix: 2001:db8::06:10:0a:2a:2e
+46.10 Node16 received DAO from Node10, Prefix: 2001:db8::06:10:0a:2a:2e
+46.10 Node16 received DAO from Node10, Prefix: 2001:db8::06:10:0a:2a:2e
+46.10 Node46 received DIO from Node10; new parent: Node10; new prefix: 2001:db8::06:10:0a:2a:2e
+46.10 Node46 received DIO from Node15; new closer parent: Node15; new prefix: 2001:db8::06:10:0a:2a:2e
+46.10 Node46 received DIO from Node42; new closer parent: Node42; new prefix: 2001:db8::06:10:0a:2a:2e
+46.43 Node07 sends DIS broadcast for neighbor discovery
+46.76 Node38 sends DIS broadcast for neighbor discovery
+47.00 Node17 sends DIO to Node00
+47.00 Node17 sends DIO to Node25
+47.00 Node17 sends DIO to Node26
+47.00 Node17 sends DIO to Node20
+47.00 Node27 sends DIO to Node01
+47.00 Node37 sends DIO to Node02
+47.00 Node37 sends DIO to Node31
+47.00 Node37 sends DIO to Node33
+47.00 Node02 sends DAO to Node37, Prefix: 2001:db8::05:15:18:21:25:02
+47.00 Node31 sends DAO to Node37, Prefix: 2001:db8::05:15:18:21:25:1f
+47.00 Node37 received DAO from Node02, Prefix: 2001:db8::05:15:18:21:25:02
+47.00 Node37 received DAO from Node31, Prefix: 2001:db8::05:15:18:21:25:1f
+47.00 Node33 received DAO from Node37, Prefix: 2001:db8::05:15:18:21:25:02
+47.00 Node33 received DAO from Node37, Prefix: 2001:db8::05:15:18:21:25:1f
+47.00 Node47 created at (57.1352, 17.0701)
+47.00 Node47 starting neighbor discovery
+47.00 Node02 received DIO from Node37; new parent: Node37; new prefix: 2001:db8::05:15:18:21:25:02
+47.00 Node31 received DIO from Node37; new parent: Node37; new prefix: 2001:db8::05:15:18:21:25:1f
+47.10 Node47 sends DIS to Node13
+47.10 Node47 sends DIS to Node18
+47.10 Node47 sends DIS to Node35
+47.10 Node47 sends DIS to Node38
+47.10 Node13 received DIS from Node47; new neighbor: Node47
+47.10 Node18 received DIS from Node47; new neighbor: Node47
+47.10 Node35 received DIS from Node47; new neighbor: Node47
+47.10 Node38 received DIS from Node47; new neighbor: Node47
+47.10 Node47 sends DAO to Node13, Prefix: 2001:db8::0d:12:0d:2f
+47.10 Node13 received DAO from Node47, Prefix: 2001:db8::0d:12:0d:2f
+47.10 Node47 received DIO from Node13; new parent: Node13; new prefix: 2001:db8::0d:12:0d:2f
+47.14 Node10 network disruption
+47.14 Node10 starting neighbor discovery
+47.24 Node10 sends DIS to Node16
+47.24 Node10 sends DIS to Node18
+47.24 Node10 sends DIS to Node42
+47.24 Node10 sends DIS to Node46
+47.24 Node16 received DIS from Node10; new neighbor: Node10
+47.24 Node18 received DIS from Node10; new neighbor: Node10
+47.24 Node42 received DIS from Node10; new neighbor: Node10
+47.24 Node46 received DIS from Node10; new neighbor: Node10
+47.24 Node10 sends DAO to Node42, Prefix: 2001:db8::06:10:0a:2a:2e:0a
+47.24 Node10 received DIO from Node42; new closer parent: Node42; new prefix: 2001:db8::06:10:0a:2a:2e:0a
+48.00 Node08 sends DIO to Node09
+48.00 Node08 sends DIO to Node12
+48.00 Node08 sends DIO to Node30
+48.00 Node08 sends DIO to Node43
+48.00 Node08 sends DIO to Node45
+48.00 Node18 sends DIO to Node13
+48.00 Node18 sends DIO to Node15
+48.00 Node18 sends DIO to Node42
+48.00 Node18 sends DIO to Node46
+48.00 Node18 sends DIO to Node47
+48.00 Node18 sends DIO to Node10
+48.00 Node28 sends DIO to Node03
+48.00 Node28 sends DIO to Node19
+48.00 Node28 sends DIO to Node34
+48.00 Node28 sends DIO to Node45
+48.00 Node38 sends DIO to Node47
+48.00 Node48 created at (69.2722, 120.5966)
+48.00 Node48 starting neighbor discovery
+48.10 Node48 sends DIS to Node04
+48.10 Node48 sends DIS to Node11
+48.10 Node48 sends DIS to Node44
+48.10 Node04 received DIS from Node48; new neighbor: Node48
+48.10 Node11 received DIS from Node48; new neighbor: Node48
+48.10 Node44 received DIS from Node48; new neighbor: Node48
+48.10 Node48 sends DAO to Node44, Prefix: 2001:db8::04:0b:04:2c:30
+48.10 Node48 sends DAO to Node44, Prefix: 2001:db8::04:0b:04:2c:30
+48.10 Node44 received DAO from Node48, Prefix: 2001:db8::04:0b:04:2c:30
+48.10 Node44 received DAO from Node48, Prefix: 2001:db8::04:0b:04:2c:30
+48.10 Node04 received DAO from Node44, Prefix: 2001:db8::04:0b:04:2c:30
+48.10 Node04 received DAO from Node44, Prefix: 2001:db8::04:0b:04:2c:30
+48.10 Node11 received DAO from Node04, Prefix: 2001:db8::04:0b:04:2c:30
+48.10 Node11 received DAO from Node04, Prefix: 2001:db8::04:0b:04:2c:30
+48.10 Node14 received DAO from Node11, Prefix: 2001:db8::04:0b:04:2c:30
+48.10 Node14 received DAO from Node11, Prefix: 2001:db8::04:0b:04:2c:30
+48.10 Node48 received DIO from Node04; new parent: Node04; new prefix: 2001:db8::04:0b:04:2c:30
+48.10 Node48 received DIO from Node44; new closer parent: Node44; new prefix: 2001:db8::04:0b:04:2c:30
+49.00 Node09 sends DIO to Node08
+49.00 Node09 sends DIO to Node12
+49.00 Node09 sends DIO to Node30
+49.00 Node09 sends DIO to Node43
+49.00 Node09 sends DIO to Node45
+49.00 Node19 sends DIO to Node03
+49.00 Node19 sends DIO to Node28
+49.00 Node19 sends DIO to Node34
+49.00 Node19 sends DIO to Node45
+49.00 Node29 sends DIO to Node11
+49.00 Node29 sends DIO to Node14
+49.00 Node29 sends DIO to Node22
+49.00 Node29 sends DIO to Node32
+49.00 Node29 sends DIO to Node41
+49.00 Node39 sends DIO to Node40
+49.00 Node40 sends DAO to Node39, Prefix: 2001:db8::28:27:28
+49.00 Node49 created at (26.1677, 20.2663)
+49.00 Node49 starting neighbor discovery
+49.00 Node40 received DIO from Node39; new parent: Node39; new prefix: 2001:db8::28:27:28
+49.10 Node49 sends DIS to Node01
+49.10 Node49 sends DIS to Node38
+49.10 Node01 received DIS from Node49; new neighbor: Node49
+49.10 Node38 received DIS from Node49; new neighbor: Node49
+49.10 Node49 sends DAO to Node01, Prefix: 2001:db8::01:1b:01:31
+49.10 Node01 received DAO from Node49, Prefix: 2001:db8::01:1b:01:31
+49.10 Node49 received DIO from Node01; new parent: Node01; new prefix: 2001:db8::01:1b:01:31
+50.00 Node00 sends DIO to Node12
+50.00 Node00 sends DIO to Node17
+50.00 Node00 sends DIO to Node25
+50.00 Node00 sends DIO to Node26
+50.00 Node00 sends DIO to Node30
+50.00 Node00 sends DIO to Node36
+50.00 Node10 sends DIO to Node16
+50.00 Node10 sends DIO to Node18
+50.00 Node10 sends DIO to Node42
+50.00 Node10 sends DIO to Node46
+50.00 Node20 sends DIO to Node17
+50.00 Node20 sends DIO to Node23
+50.00 Node20 sends DIO to Node25
+50.00 Node20 sends DIO to Node26
+50.00 Node20 sends DIO to Node35
+50.00 Node30 sends DIO to Node00
+50.00 Node30 sends DIO to Node08
+50.00 Node30 sends DIO to Node09
+50.00 Node30 sends DIO to Node12
+50.00 Node30 sends DIO to Node36
+50.00 Node40 sends DIO to Node39
+51.00 Node01 sends DIO to Node27
+51.00 Node01 sends DIO to Node49
+51.00 Node11 sends DIO to Node14
+51.00 Node11 sends DIO to Node22
+51.00 Node11 sends DIO to Node29
+51.00 Node11 sends DIO to Node04
+51.00 Node11 sends DIO to Node44
+51.00 Node11 sends DIO to Node48
+51.00 Node21 sends DIO to Node05
+51.00 Node21 sends DIO to Node24
+51.00 Node31 sends DIO to Node37
+51.00 Node41 sends DIO to Node02
+51.00 Node41 sends DIO to Node05
+51.00 Node41 sends DIO to Node29
+51.00 Node41 sends DIO to Node32
+51.00 Node02 sends DAO to Node41, Prefix: 2001:db8::04:0b:0e:16:1d:20:29:02
+51.00 Node41 received DAO from Node02, Prefix: 2001:db8::04:0b:0e:16:1d:20:29:02
+51.00 Node32 received DAO from Node41, Prefix: 2001:db8::04:0b:0e:16:1d:20:29:02
+51.00 Node02 received DIO from Node41; new closer parent: Node41; new prefix: 2001:db8::04:0b:0e:16:1d:20:29:02
+52.00 Node02 sends DIO to Node37
+52.00 Node02 sends DIO to Node41
+52.00 Node12 sends DIO to Node00
+52.00 Node12 sends DIO to Node08
+52.00 Node12 sends DIO to Node09
+52.00 Node12 sends DIO to Node30
+52.00 Node12 sends DIO to Node43
+52.00 Node22 sends DIO to Node11
+52.00 Node22 sends DIO to Node14
+52.00 Node22 sends DIO to Node29
+52.00 Node32 sends DIO to Node05
+52.00 Node32 sends DIO to Node29
+52.00 Node32 sends DIO to Node41
+52.00 Node42 sends DIO to Node18
+52.00 Node42 sends DIO to Node46
+52.00 Node42 sends DIO to Node10
+53.00 Node03 sends DIO to Node19
+53.00 Node03 sends DIO to Node28
+53.00 Node03 sends DIO to Node34
+53.00 Node13 sends DIO to Node18
+53.00 Node13 sends DIO to Node47
+53.00 Node23 sends DIO to Node26
+53.00 Node23 sends DIO to Node20
+53.00 Node33 sends DIO to Node24
+53.00 Node33 sends DIO to Node37
+53.00 Node43 sends DIO to Node06
+53.00 Node43 sends DIO to Node08
+53.00 Node43 sends DIO to Node09
+53.00 Node43 sends DIO to Node12
+54.00 Node04 sends DIO to Node11
+54.00 Node04 sends DIO to Node44
+54.00 Node04 sends DIO to Node48
+54.00 Node14 sends DIO to Node11
+54.00 Node14 sends DIO to Node22
+54.00 Node14 sends DIO to Node29
+54.00 Node14 sends DIO to Node44
+54.00 Node24 sends DIO to Node21
+54.00 Node24 sends DIO to Node33
+54.00 Node34 sends DIO to Node03
+54.00 Node34 sends DIO to Node19
+54.00 Node34 sends DIO to Node28
+54.00 Node44 sends DIO to Node04
+54.00 Node44 sends DIO to Node11
+54.00 Node44 sends DIO to Node14
+54.00 Node44 sends DIO to Node48
+54.00 Node04 sends DAO to Node44, Prefix: 2001:db8::04:0b:04:2c:30:04
+54.00 Node11 sends DAO to Node44, Prefix: 2001:db8::04:0b:04:2c:30:0b
+54.00 Node44 received DAO from Node11, Prefix: 2001:db8::04:0b:04:2c:30:0b
+54.00 Node04 received DIO from Node44; new closer parent: Node44; new prefix: 2001:db8::04:0b:04:2c:30:04
+54.00 Node11 received DIO from Node44; new closer parent: Node44; new prefix: 2001:db8::04:0b:04:2c:30:0b
+54.30 Node07 sends DIS broadcast for neighbor discovery
+55.00 Node05 sends DIO to Node21
+55.00 Node05 sends DIO to Node32
+55.00 Node05 sends DIO to Node41
+55.00 Node15 sends DIO to Node18
+55.00 Node15 sends DIO to Node46
+55.00 Node25 sends DIO to Node00
+55.00 Node25 sends DIO to Node17
+55.00 Node25 sends DIO to Node26
+55.00 Node25 sends DIO to Node20
+55.00 Node35 sends DIO to Node20
+55.00 Node35 sends DIO to Node47
+55.00 Node45 sends DIO to Node08
+55.00 Node45 sends DIO to Node09
+55.00 Node45 sends DIO to Node19
+55.00 Node45 sends DIO to Node28
+56.00 Node06 sends DIO to Node16
+56.00 Node06 sends DIO to Node43
+56.00 Node16 sends DIO to Node06
+56.00 Node16 sends DIO to Node10
+56.00 Node26 sends DIO to Node00
+56.00 Node26 sends DIO to Node17
+56.00 Node26 sends DIO to Node23
+56.00 Node26 sends DIO to Node25
+56.00 Node26 sends DIO to Node20
+56.00 Node36 sends DIO to Node00
+56.00 Node36 sends DIO to Node30
+56.00 Node46 sends DIO to Node15
+56.00 Node46 sends DIO to Node18
+56.00 Node46 sends DIO to Node42
+56.00 Node46 sends DIO to Node10
+56.00 Node15 sends DAO to Node46, Prefix: 2001:db8::06:10:0a:2a:2e:0f
+56.00 Node46 received DAO from Node15, Prefix: 2001:db8::06:10:0a:2a:2e:0f
+56.00 Node42 received DAO from Node46, Prefix: 2001:db8::06:10:0a:2a:2e:0f
+56.00 Node15 received DIO from Node46; new closer parent: Node46; new prefix: 2001:db8::06:10:0a:2a:2e:0f
+57.00 Node17 sends DIO to Node00
+57.00 Node17 sends DIO to Node25
+57.00 Node17 sends DIO to Node26
+57.00 Node17 sends DIO to Node20
+57.00 Node27 sends DIO to Node01
+57.00 Node37 sends DIO to Node02
+57.00 Node37 sends DIO to Node31
+57.00 Node37 sends DIO to Node33
+57.00 Node47 sends DIO to Node13
+57.00 Node47 sends DIO to Node18
+57.00 Node47 sends DIO to Node35
+57.00 Node47 sends DIO to Node38
+57.00 Node13 sends DAO to Node47, Prefix: 2001:db8::0d:12:0d:2f:0d
+57.00 Node38 sends DAO to Node47, Prefix: 2001:db8::0d:12:0d:2f:26
+57.00 Node47 received DAO from Node38, Prefix: 2001:db8::0d:12:0d:2f:26
+57.00 Node13 received DIO from Node47; new closer parent: Node47; new prefix: 2001:db8::0d:12:0d:2f:0d
+57.00 Node38 received DIO from Node47; new parent: Node47; new prefix: 2001:db8::0d:12:0d:2f:26
+58.00 Node08 sends DIO to Node09
+58.00 Node08 sends DIO to Node12
+58.00 Node08 sends DIO to Node30
+58.00 Node08 sends DIO to Node43
+58.00 Node08 sends DIO to Node45
+58.00 Node18 sends DIO to Node13
+58.00 Node18 sends DIO to Node15
+58.00 Node18 sends DIO to Node42
+58.00 Node18 sends DIO to Node46
+58.00 Node18 sends DIO to Node47
+58.00 Node18 sends DIO to Node10
+58.00 Node28 sends DIO to Node03
+58.00 Node28 sends DIO to Node19
+58.00 Node28 sends DIO to Node34
+58.00 Node28 sends DIO to Node45
+58.00 Node38 sends DIO to Node47
+58.00 Node38 sends DIO to Node49
+58.00 Node48 sends DIO to Node04
+58.00 Node48 sends DIO to Node11
+58.00 Node48 sends DIO to Node44
+58.00 Node11 sends DAO to Node48, Prefix: 2001:db8::04:0b:04:2c:30:0b
+58.00 Node44 sends DAO to Node48, Prefix: 2001:db8::04:0b:04:2c:30:2c
+58.00 Node48 received DAO from Node11, Prefix: 2001:db8::04:0b:04:2c:30:0b
+58.00 Node11 received DIO from Node48; new closer parent: Node48; new prefix: 2001:db8::04:0b:04:2c:30:0b
+58.00 Node44 received DIO from Node48; new closer parent: Node48; new prefix: 2001:db8::04:0b:04:2c:30:2c
+59.00 Node09 sends DIO to Node08
+59.00 Node09 sends DIO to Node12
+59.00 Node09 sends DIO to Node30
+59.00 Node09 sends DIO to Node43
+59.00 Node09 sends DIO to Node45
+59.00 Node19 sends DIO to Node03
+59.00 Node19 sends DIO to Node28
+59.00 Node19 sends DIO to Node34
+59.00 Node19 sends DIO to Node45
+59.00 Node29 sends DIO to Node11
+59.00 Node29 sends DIO to Node14
+59.00 Node29 sends DIO to Node22
+59.00 Node29 sends DIO to Node32
+59.00 Node29 sends DIO to Node41
+59.00 Node39 sends DIO to Node40
+59.00 Node49 sends DIO to Node01
+59.00 Node49 sends DIO to Node38
+59.00 Node01 sends DAO to Node49, Prefix: 2001:db8::01:1b:01:31:01
+59.00 Node01 received DIO from Node49; new closer parent: Node49; new prefix: 2001:db8::01:1b:01:31:01
+59.88 Node07 sends DIS broadcast for neighbor discovery
+60.00 Node00 sends DIO to Node12
+60.00 Node00 sends DIO to Node17
+60.00 Node00 sends DIO to Node25
+60.00 Node00 sends DIO to Node26
+60.00 Node00 sends DIO to Node30
+60.00 Node00 sends DIO to Node36
+60.00 Node10 sends DIO to Node16
+60.00 Node10 sends DIO to Node18
+60.00 Node10 sends DIO to Node42
+60.00 Node10 sends DIO to Node46
+60.00 Node20 sends DIO to Node17
+60.00 Node20 sends DIO to Node23
+60.00 Node20 sends DIO to Node25
+60.00 Node20 sends DIO to Node26
+60.00 Node20 sends DIO to Node35
+60.00 Node30 sends DIO to Node00
+60.00 Node30 sends DIO to Node08
+60.00 Node30 sends DIO to Node09
+60.00 Node30 sends DIO to Node12
+60.00 Node30 sends DIO to Node36
+60.00 Node40 sends DIO to Node39
+61.00 Node01 sends DIO to Node27
+61.00 Node01 sends DIO to Node49
+61.00 Node11 sends DIO to Node14
+61.00 Node11 sends DIO to Node22
+61.00 Node11 sends DIO to Node29
+61.00 Node11 sends DIO to Node04
+61.00 Node11 sends DIO to Node44
+61.00 Node11 sends DIO to Node48
+61.00 Node21 sends DIO to Node05
+61.00 Node21 sends DIO to Node24
+61.00 Node31 sends DIO to Node37
+61.00 Node41 sends DIO to Node02
+61.00 Node41 sends DIO to Node05
+61.00 Node41 sends DIO to Node29
+61.00 Node41 sends DIO to Node32
+62.00 Node02 sends DIO to Node37
+62.00 Node02 sends DIO to Node41
+62.00 Node12 sends DIO to Node00
+62.00 Node12 sends DIO to Node08
+62.00 Node12 sends DIO to Node09
+62.00 Node12 sends DIO to Node30
+62.00 Node12 sends DIO to Node43
+62.00 Node22 sends DIO to Node11
+62.00 Node22 sends DIO to Node14
+62.00 Node22 sends DIO to Node29
+62.00 Node32 sends DIO to Node05
+62.00 Node32 sends DIO to Node29
+62.00 Node32 sends DIO to Node41
+62.00 Node42 sends DIO to Node18
+62.00 Node42 sends DIO to Node46
+62.00 Node42 sends DIO to Node10
+62.76 Node07 sends DIS broadcast for neighbor discovery
+63.00 Node03 sends DIO to Node19
+63.00 Node03 sends DIO to Node28
+63.00 Node03 sends DIO to Node34
+63.00 Node13 sends DIO to Node18
+63.00 Node13 sends DIO to Node47
+63.00 Node23 sends DIO to Node26
+63.00 Node23 sends DIO to Node20
+63.00 Node33 sends DIO to Node24
+63.00 Node33 sends DIO to Node37
+63.00 Node43 sends DIO to Node06
+63.00 Node43 sends DIO to Node08
+63.00 Node43 sends DIO to Node09
+63.00 Node43 sends DIO to Node12
+64.00 Node04 sends DIO to Node11
+64.00 Node04 sends DIO to Node44
+64.00 Node04 sends DIO to Node48
+64.00 Node14 sends DIO to Node11
+64.00 Node14 sends DIO to Node22
+64.00 Node14 sends DIO to Node29
+64.00 Node14 sends DIO to Node44
+64.00 Node24 sends DIO to Node21
+64.00 Node24 sends DIO to Node33
+64.00 Node34 sends DIO to Node03
+64.00 Node34 sends DIO to Node19
+64.00 Node34 sends DIO to Node28
+64.00 Node44 sends DIO to Node04
+64.00 Node44 sends DIO to Node11
+64.00 Node44 sends DIO to Node14
+64.00 Node44 sends DIO to Node48
+65.00 Node05 sends DIO to Node21
+65.00 Node05 sends DIO to Node32
+65.00 Node05 sends DIO to Node41
+65.00 Node15 sends DIO to Node18
+65.00 Node15 sends DIO to Node46
+65.00 Node25 sends DIO to Node00
+65.00 Node25 sends DIO to Node17
+65.00 Node25 sends DIO to Node26
+65.00 Node25 sends DIO to Node20
+65.00 Node35 sends DIO to Node20
+65.00 Node35 sends DIO to Node47
+65.00 Node45 sends DIO to Node08
+65.00 Node45 sends DIO to Node09
+65.00 Node45 sends DIO to Node19
+65.00 Node45 sends DIO to Node28
+66.00 Node06 sends DIO to Node16
+66.00 Node06 sends DIO to Node43
+66.00 Node16 sends DIO to Node06
+66.00 Node16 sends DIO to Node10
+66.00 Node26 sends DIO to Node00
+66.00 Node26 sends DIO to Node17
+66.00 Node26 sends DIO to Node23
+66.00 Node26 sends DIO to Node25
+66.00 Node26 sends DIO to Node20
+66.00 Node36 sends DIO to Node00
+66.00 Node36 sends DIO to Node30
+66.00 Node46 sends DIO to Node15
+66.00 Node46 sends DIO to Node18
+66.00 Node46 sends DIO to Node42
+66.00 Node46 sends DIO to Node10
+67.00 Node17 sends DIO to Node00
+67.00 Node17 sends DIO to Node25
+67.00 Node17 sends DIO to Node26
+67.00 Node17 sends DIO to Node20
+67.00 Node27 sends DIO to Node01
+67.00 Node37 sends DIO to Node02
+67.00 Node37 sends DIO to Node31
+67.00 Node37 sends DIO to Node33
+67.00 Node47 sends DIO to Node13
+67.00 Node47 sends DIO to Node18
+67.00 Node47 sends DIO to Node35
+67.00 Node47 sends DIO to Node38
+68.00 Node08 sends DIO to Node09
+68.00 Node08 sends DIO to Node12
+68.00 Node08 sends DIO to Node30
+68.00 Node08 sends DIO to Node43
+68.00 Node08 sends DIO to Node45
+68.00 Node18 sends DIO to Node13
+68.00 Node18 sends DIO to Node15
+68.00 Node18 sends DIO to Node42
+68.00 Node18 sends DIO to Node46
+68.00 Node18 sends DIO to Node47
+68.00 Node18 sends DIO to Node10
+68.00 Node28 sends DIO to Node03
+68.00 Node28 sends DIO to Node19
+68.00 Node28 sends DIO to Node34
+68.00 Node28 sends DIO to Node45
+68.00 Node38 sends DIO to Node47
+68.00 Node38 sends DIO to Node49
+68.00 Node48 sends DIO to Node04
+68.00 Node48 sends DIO to Node11
+68.00 Node48 sends DIO to Node44
+69.00 Node09 sends DIO to Node08
+69.00 Node09 sends DIO to Node12
+69.00 Node09 sends DIO to Node30
+69.00 Node09 sends DIO to Node43
+69.00 Node09 sends DIO to Node45
+69.00 Node19 sends DIO to Node03
+69.00 Node19 sends DIO to Node28
+69.00 Node19 sends DIO to Node34
+69.00 Node19 sends DIO to Node45
+69.00 Node29 sends DIO to Node11
+69.00 Node29 sends DIO to Node14
+69.00 Node29 sends DIO to Node22
+69.00 Node29 sends DIO to Node32
+69.00 Node29 sends DIO to Node41
+69.00 Node39 sends DIO to Node40
+69.00 Node49 sends DIO to Node01
+69.00 Node49 sends DIO to Node38
+70.00 Node00 sends DIO to Node12
+70.00 Node00 sends DIO to Node17
+70.00 Node00 sends DIO to Node25
+70.00 Node00 sends DIO to Node26
+70.00 Node00 sends DIO to Node30
+70.00 Node00 sends DIO to Node36
+70.00 Node10 sends DIO to Node16
+70.00 Node10 sends DIO to Node18
+70.00 Node10 sends DIO to Node42
+70.00 Node10 sends DIO to Node46
+70.00 Node20 sends DIO to Node17
+70.00 Node20 sends DIO to Node23
+70.00 Node20 sends DIO to Node25
+70.00 Node20 sends DIO to Node26
+70.00 Node20 sends DIO to Node35
+70.00 Node30 sends DIO to Node00
+70.00 Node30 sends DIO to Node08
+70.00 Node30 sends DIO to Node09
+70.00 Node30 sends DIO to Node12
+70.00 Node30 sends DIO to Node36
+70.00 Node40 sends DIO to Node39
+70.05 Node03 network disruption
+70.05 Node03 starting neighbor discovery
+70.15 Node03 sends DIS to Node19
+70.15 Node03 sends DIS to Node28
+70.15 Node03 sends DIS to Node34
+70.15 Node19 received DIS from Node03; new neighbor: Node03
+70.15 Node28 received DIS from Node03; new neighbor: Node03
+70.15 Node34 received DIS from Node03; new neighbor: Node03
+71.00 Node01 sends DIO to Node27
+71.00 Node01 sends DIO to Node49
+71.00 Node11 sends DIO to Node14
+71.00 Node11 sends DIO to Node22
+71.00 Node11 sends DIO to Node29
+71.00 Node11 sends DIO to Node04
+71.00 Node11 sends DIO to Node44
+71.00 Node11 sends DIO to Node48
+71.00 Node21 sends DIO to Node05
+71.00 Node21 sends DIO to Node24
+71.00 Node31 sends DIO to Node37
+71.00 Node41 sends DIO to Node02
+71.00 Node41 sends DIO to Node05
+71.00 Node41 sends DIO to Node29
+71.00 Node41 sends DIO to Node32
+72.00 Node02 sends DIO to Node37
+72.00 Node02 sends DIO to Node41
+72.00 Node12 sends DIO to Node00
+72.00 Node12 sends DIO to Node08
+72.00 Node12 sends DIO to Node09
+72.00 Node12 sends DIO to Node30
+72.00 Node12 sends DIO to Node43
+72.00 Node22 sends DIO to Node11
+72.00 Node22 sends DIO to Node14
+72.00 Node22 sends DIO to Node29
+72.00 Node32 sends DIO to Node05
+72.00 Node32 sends DIO to Node29
+72.00 Node32 sends DIO to Node41
+72.00 Node42 sends DIO to Node18
+72.00 Node42 sends DIO to Node46
+72.00 Node42 sends DIO to Node10
+72.12 Node07 sends DIS broadcast for neighbor discovery
+73.00 Node03 sends DIO to Node19
+73.00 Node03 sends DIO to Node28
+73.00 Node03 sends DIO to Node34
+73.00 Node13 sends DIO to Node18
+73.00 Node13 sends DIO to Node47
+73.00 Node23 sends DIO to Node26
+73.00 Node23 sends DIO to Node20
+73.00 Node33 sends DIO to Node24
+73.00 Node33 sends DIO to Node37
+73.00 Node43 sends DIO to Node06
+73.00 Node43 sends DIO to Node08
+73.00 Node43 sends DIO to Node09
+73.00 Node43 sends DIO to Node12
+74.00 Node04 sends DIO to Node11
+74.00 Node04 sends DIO to Node44
+74.00 Node04 sends DIO to Node48
+74.00 Node14 sends DIO to Node11
+74.00 Node14 sends DIO to Node22
+74.00 Node14 sends DIO to Node29
+74.00 Node14 sends DIO to Node44
+74.00 Node24 sends DIO to Node21
+74.00 Node24 sends DIO to Node33
+74.00 Node34 sends DIO to Node19
+74.00 Node34 sends DIO to Node28
+74.00 Node34 sends DIO to Node03
+74.00 Node44 sends DIO to Node04
+74.00 Node44 sends DIO to Node11
+74.00 Node44 sends DIO to Node14
+74.00 Node44 sends DIO to Node48
+75.00 Node05 sends DIO to Node21
+75.00 Node05 sends DIO to Node32
+75.00 Node05 sends DIO to Node41
+75.00 Node15 sends DIO to Node18
+75.00 Node15 sends DIO to Node46
+75.00 Node25 sends DIO to Node00
+75.00 Node25 sends DIO to Node17
+75.00 Node25 sends DIO to Node26
+75.00 Node25 sends DIO to Node20
+75.00 Node35 sends DIO to Node20
+75.00 Node35 sends DIO to Node47
+75.00 Node45 sends DIO to Node08
+75.00 Node45 sends DIO to Node09
+75.00 Node45 sends DIO to Node19
+75.00 Node45 sends DIO to Node28
+76.00 Node06 sends DIO to Node16
+76.00 Node06 sends DIO to Node43
+76.00 Node16 sends DIO to Node06
+76.00 Node16 sends DIO to Node10
+76.00 Node26 sends DIO to Node00
+76.00 Node26 sends DIO to Node17
+76.00 Node26 sends DIO to Node23
+76.00 Node26 sends DIO to Node25
+76.00 Node26 sends DIO to Node20
+76.00 Node36 sends DIO to Node00
+76.00 Node36 sends DIO to Node30
+76.00 Node46 sends DIO to Node15
+76.00 Node46 sends DIO to Node18
+76.00 Node46 sends DIO to Node42
+76.00 Node46 sends DIO to Node10
+77.00 Node17 sends DIO to Node00
+77.00 Node17 sends DIO to Node25
+77.00 Node17 sends DIO to Node26
+77.00 Node17 sends DIO to Node20
+77.00 Node27 sends DIO to Node01
+77.00 Node37 sends DIO to Node02
+77.00 Node37 sends DIO to Node31
+77.00 Node37 sends DIO to Node33
+77.00 Node47 sends DIO to Node13
+77.00 Node47 sends DIO to Node18
+77.00 Node47 sends DIO to Node35
+77.00 Node47 sends DIO to Node38
+78.00 Node08 sends DIO to Node09
+78.00 Node08 sends DIO to Node12
+78.00 Node08 sends DIO to Node30
+78.00 Node08 sends DIO to Node43
+78.00 Node08 sends DIO to Node45
+78.00 Node18 sends DIO to Node13
+78.00 Node18 sends DIO to Node15
+78.00 Node18 sends DIO to Node42
+78.00 Node18 sends DIO to Node46
+78.00 Node18 sends DIO to Node47
+78.00 Node18 sends DIO to Node10
+78.00 Node28 sends DIO to Node19
+78.00 Node28 sends DIO to Node34
+78.00 Node28 sends DIO to Node45
+78.00 Node28 sends DIO to Node03
+78.00 Node38 sends DIO to Node47
+78.00 Node38 sends DIO to Node49
+78.00 Node48 sends DIO to Node04
+78.00 Node48 sends DIO to Node11
+78.00 Node48 sends DIO to Node44
+79.00 Node09 sends DIO to Node08
+79.00 Node09 sends DIO to Node12
+79.00 Node09 sends DIO to Node30
+79.00 Node09 sends DIO to Node43
+79.00 Node09 sends DIO to Node45
+79.00 Node19 sends DIO to Node28
+79.00 Node19 sends DIO to Node34
+79.00 Node19 sends DIO to Node45
+79.00 Node19 sends DIO to Node03
+79.00 Node29 sends DIO to Node11
+79.00 Node29 sends DIO to Node14
+79.00 Node29 sends DIO to Node22
+79.00 Node29 sends DIO to Node32
+79.00 Node29 sends DIO to Node41
+79.00 Node39 sends DIO to Node40
+79.00 Node49 sends DIO to Node01
+79.00 Node49 sends DIO to Node38
+79.92 Node07 sends DIS broadcast for neighbor discovery
+80.00 Node00 sends DIO to Node12
+80.00 Node00 sends DIO to Node17
+80.00 Node00 sends DIO to Node25
+80.00 Node00 sends DIO to Node26
+80.00 Node00 sends DIO to Node30
+80.00 Node00 sends DIO to Node36
+80.00 Node10 sends DIO to Node16
+80.00 Node10 sends DIO to Node18
+80.00 Node10 sends DIO to Node42
+80.00 Node10 sends DIO to Node46
+80.00 Node20 sends DIO to Node17
+80.00 Node20 sends DIO to Node23
+80.00 Node20 sends DIO to Node25
+80.00 Node20 sends DIO to Node26
+80.00 Node20 sends DIO to Node35
+80.00 Node30 sends DIO to Node00
+80.00 Node30 sends DIO to Node08
+80.00 Node30 sends DIO to Node09
+80.00 Node30 sends DIO to Node12
+80.00 Node30 sends DIO to Node36
+80.00 Node40 sends DIO to Node39
+81.00 Node01 sends DIO to Node27
+81.00 Node01 sends DIO to Node49
+81.00 Node11 sends DIO to Node14
+81.00 Node11 sends DIO to Node22
+81.00 Node11 sends DIO to Node29
+81.00 Node11 sends DIO to Node04
+81.00 Node11 sends DIO to Node44
+81.00 Node11 sends DIO to Node48
+81.00 Node21 sends DIO to Node05
+81.00 Node21 sends DIO to Node24
+81.00 Node31 sends DIO to Node37
+81.00 Node41 sends DIO to Node02
+81.00 Node41 sends DIO to Node05
+81.00 Node41 sends DIO to Node29
+81.00 Node41 sends DIO to Node32
+82.00 Node02 sends DIO to Node37
+82.00 Node02 sends DIO to Node41
+82.00 Node12 sends DIO to Node00
+82.00 Node12 sends DIO to Node08
+82.00 Node12 sends DIO to Node09
+82.00 Node12 sends DIO to Node30
+82.00 Node12 sends DIO to Node43
+82.00 Node22 sends DIO to Node11
+82.00 Node22 sends DIO to Node14
+82.00 Node22 sends DIO to Node29
+82.00 Node32 sends DIO to Node05
+82.00 Node32 sends DIO to Node29
+82.00 Node32 sends DIO to Node41
+82.00 Node42 sends DIO to Node18
+82.00 Node42 sends DIO to Node46
+82.00 Node42 sends DIO to Node10
+83.00 Node03 sends DIO to Node19
+83.00 Node03 sends DIO to Node28
+83.00 Node03 sends DIO to Node34
+83.00 Node13 sends DIO to Node18
+83.00 Node13 sends DIO to Node47
+83.00 Node23 sends DIO to Node26
+83.00 Node23 sends DIO to Node20
+83.00 Node33 sends DIO to Node24
+83.00 Node33 sends DIO to Node37
+83.00 Node43 sends DIO to Node06
+83.00 Node43 sends DIO to Node08
+83.00 Node43 sends DIO to Node09
+83.00 Node43 sends DIO to Node12
+84.00 Node04 sends DIO to Node11
+84.00 Node04 sends DIO to Node44
+84.00 Node04 sends DIO to Node48
+84.00 Node14 sends DIO to Node11
+84.00 Node14 sends DIO to Node22
+84.00 Node14 sends DIO to Node29
+84.00 Node14 sends DIO to Node44
+84.00 Node24 sends DIO to Node21
+84.00 Node24 sends DIO to Node33
+84.00 Node34 sends DIO to Node19
+84.00 Node34 sends DIO to Node28
+84.00 Node34 sends DIO to Node03
+84.00 Node44 sends DIO to Node04
+84.00 Node44 sends DIO to Node11
+84.00 Node44 sends DIO to Node14
+84.00 Node44 sends DIO to Node48
+85.00 Node05 sends DIO to Node21
+85.00 Node05 sends DIO to Node32
+85.00 Node05 sends DIO to Node41
+85.00 Node15 sends DIO to Node18
+85.00 Node15 sends DIO to Node46
+85.00 Node25 sends DIO to Node00
+85.00 Node25 sends DIO to Node17
+85.00 Node25 sends DIO to Node26
+85.00 Node25 sends DIO to Node20
+85.00 Node35 sends DIO to Node20
+85.00 Node35 sends DIO to Node47
+85.00 Node45 sends DIO to Node08
+85.00 Node45 sends DIO to Node09
+85.00 Node45 sends DIO to Node19
+85.00 Node45 sends DIO to Node28
+85.01 Node31 network disruption
+85.01 Node31 starting neighbor discovery
+85.11 Node31 sends DIS to Node37
+85.11 Node37 received DIS from Node31; new neighbor: Node31
+86.00 Node06 sends DIO to Node16
+86.00 Node06 sends DIO to Node43
+86.00 Node16 sends DIO to Node06
+86.00 Node16 sends DIO to Node10
+86.00 Node26 sends DIO to Node00
+86.00 Node26 sends DIO to Node17
+86.00 Node26 sends DIO to Node23
+86.00 Node26 sends DIO to Node25
+86.00 Node26 sends DIO to Node20
+86.00 Node36 sends DIO to Node00
+86.00 Node36 sends DIO to Node30
+86.00 Node46 sends DIO to Node15
+86.00 Node46 sends DIO to Node18
+86.00 Node46 sends DIO to Node42
+86.00 Node46 sends DIO to Node10
+86.50 Node07 sends DIS broadcast for neighbor discovery
+87.00 Node17 sends DIO to Node00
+87.00 Node17 sends DIO to Node25
+87.00 Node17 sends DIO to Node26
+87.00 Node17 sends DIO to Node20
+87.00 Node27 sends DIO to Node01
+87.00 Node37 sends DIO to Node02
+87.00 Node37 sends DIO to Node33
+87.00 Node37 sends DIO to Node31
+87.00 Node47 sends DIO to Node13
+87.00 Node47 sends DIO to Node18
+87.00 Node47 sends DIO to Node35
+87.00 Node47 sends DIO to Node38
+88.00 Node08 sends DIO to Node09
+88.00 Node08 sends DIO to Node12
+88.00 Node08 sends DIO to Node30
+88.00 Node08 sends DIO to Node43
+88.00 Node08 sends DIO to Node45
+88.00 Node18 sends DIO to Node13
+88.00 Node18 sends DIO to Node15
+88.00 Node18 sends DIO to Node42
+88.00 Node18 sends DIO to Node46
+88.00 Node18 sends DIO to Node47
+88.00 Node18 sends DIO to Node10
+88.00 Node28 sends DIO to Node19
+88.00 Node28 sends DIO to Node34
+88.00 Node28 sends DIO to Node45
+88.00 Node28 sends DIO to Node03
+88.00 Node38 sends DIO to Node47
+88.00 Node38 sends DIO to Node49
+88.00 Node48 sends DIO to Node04
+88.00 Node48 sends DIO to Node11
+88.00 Node48 sends DIO to Node44
+89.00 Node09 sends DIO to Node08
+89.00 Node09 sends DIO to Node12
+89.00 Node09 sends DIO to Node30
+89.00 Node09 sends DIO to Node43
+89.00 Node09 sends DIO to Node45
+89.00 Node19 sends DIO to Node28
+89.00 Node19 sends DIO to Node34
+89.00 Node19 sends DIO to Node45
+89.00 Node19 sends DIO to Node03
+89.00 Node29 sends DIO to Node11
+89.00 Node29 sends DIO to Node14
+89.00 Node29 sends DIO to Node22
+89.00 Node29 sends DIO to Node32
+89.00 Node29 sends DIO to Node41
+89.00 Node39 sends DIO to Node40
+89.00 Node49 sends DIO to Node01
+89.00 Node49 sends DIO to Node38
+90.00 Node00 sends DIO to Node12
+90.00 Node00 sends DIO to Node17
+90.00 Node00 sends DIO to Node25
+90.00 Node00 sends DIO to Node26
+90.00 Node00 sends DIO to Node30
+90.00 Node00 sends DIO to Node36
+90.00 Node10 sends DIO to Node16
+90.00 Node10 sends DIO to Node18
+90.00 Node10 sends DIO to Node42
+90.00 Node10 sends DIO to Node46
+90.00 Node20 sends DIO to Node17
+90.00 Node20 sends DIO to Node23
+90.00 Node20 sends DIO to Node25
+90.00 Node20 sends DIO to Node26
+90.00 Node20 sends DIO to Node35
+90.00 Node30 sends DIO to Node00
+90.00 Node30 sends DIO to Node08
+90.00 Node30 sends DIO to Node09
+90.00 Node30 sends DIO to Node12
+90.00 Node30 sends DIO to Node36
+90.00 Node40 sends DIO to Node39
+90.10 Node28 network disruption
+90.10 Node28 starting neighbor discovery
+90.20 Node28 sends DIS to Node03
+90.20 Node28 sends DIS to Node19
+90.20 Node28 sends DIS to Node34
+90.20 Node28 sends DIS to Node45
+90.20 Node03 received DIS from Node28; new neighbor: Node28
+90.20 Node19 received DIS from Node28; new neighbor: Node28
+90.20 Node34 received DIS from Node28; new neighbor: Node28
+90.20 Node45 received DIS from Node28; new neighbor: Node28
+91.00 Node01 sends DIO to Node27
+91.00 Node01 sends DIO to Node49
+91.00 Node11 sends DIO to Node14
+91.00 Node11 sends DIO to Node22
+91.00 Node11 sends DIO to Node29
+91.00 Node11 sends DIO to Node04
+91.00 Node11 sends DIO to Node44
+91.00 Node11 sends DIO to Node48
+91.00 Node21 sends DIO to Node05
+91.00 Node21 sends DIO to Node24
+91.00 Node31 sends DIO to Node37
+91.00 Node41 sends DIO to Node02
+91.00 Node41 sends DIO to Node05
+91.00 Node41 sends DIO to Node29
+91.00 Node41 sends DIO to Node32
+92.00 Node02 sends DIO to Node37
+92.00 Node02 sends DIO to Node41
+92.00 Node12 sends DIO to Node00
+92.00 Node12 sends DIO to Node08
+92.00 Node12 sends DIO to Node09
+92.00 Node12 sends DIO to Node30
+92.00 Node12 sends DIO to Node43
+92.00 Node22 sends DIO to Node11
+92.00 Node22 sends DIO to Node14
+92.00 Node22 sends DIO to Node29
+92.00 Node32 sends DIO to Node05
+92.00 Node32 sends DIO to Node29
+92.00 Node32 sends DIO to Node41
+92.00 Node42 sends DIO to Node18
+92.00 Node42 sends DIO to Node46
+92.00 Node42 sends DIO to Node10
+93.00 Node03 sends DIO to Node19
+93.00 Node03 sends DIO to Node34
+93.00 Node03 sends DIO to Node28
+93.00 Node13 sends DIO to Node18
+93.00 Node13 sends DIO to Node47
+93.00 Node23 sends DIO to Node26
+93.00 Node23 sends DIO to Node20
+93.00 Node33 sends DIO to Node24
+93.00 Node33 sends DIO to Node37
+93.00 Node43 sends DIO to Node06
+93.00 Node43 sends DIO to Node08
+93.00 Node43 sends DIO to Node09
+93.00 Node43 sends DIO to Node12
+94.00 Node04 sends DIO to Node11
+94.00 Node04 sends DIO to Node44
+94.00 Node04 sends DIO to Node48
+94.00 Node14 sends DIO to Node11
+94.00 Node14 sends DIO to Node22
+94.00 Node14 sends DIO to Node29
+94.00 Node14 sends DIO to Node44
+94.00 Node24 sends DIO to Node21
+94.00 Node24 sends DIO to Node33
+94.00 Node34 sends DIO to Node19
+94.00 Node34 sends DIO to Node03
+94.00 Node34 sends DIO to Node28
+94.00 Node44 sends DIO to Node04
+94.00 Node44 sends DIO to Node11
+94.00 Node44 sends DIO to Node14
+94.00 Node44 sends DIO to Node48
+94.75 Node07 sends DIS broadcast for neighbor discovery
+95.00 Node05 sends DIO to Node21
+95.00 Node05 sends DIO to Node32
+95.00 Node05 sends DIO to Node41
+95.00 Node15 sends DIO to Node18
+95.00 Node15 sends DIO to Node46
+95.00 Node25 sends DIO to Node00
+95.00 Node25 sends DIO to Node17
+95.00 Node25 sends DIO to Node26
+95.00 Node25 sends DIO to Node20
+95.00 Node35 sends DIO to Node20
+95.00 Node35 sends DIO to Node47
+95.00 Node45 sends DIO to Node08
+95.00 Node45 sends DIO to Node09
+95.00 Node45 sends DIO to Node19
+95.00 Node45 sends DIO to Node28
+95.45 Node35 network disruption
+95.45 Node35 starting neighbor discovery
+95.55 Node35 sends DIS to Node20
+95.55 Node35 sends DIS to Node47
+95.55 Node20 received DIS from Node35; new neighbor: Node35
+95.55 Node47 received DIS from Node35; new neighbor: Node35
+96.00 Node06 sends DIO to Node16
+96.00 Node06 sends DIO to Node43
+96.00 Node16 sends DIO to Node06
+96.00 Node16 sends DIO to Node10
+96.00 Node26 sends DIO to Node00
+96.00 Node26 sends DIO to Node17
+96.00 Node26 sends DIO to Node23
+96.00 Node26 sends DIO to Node25
+96.00 Node26 sends DIO to Node20
+96.00 Node36 sends DIO to Node00
+96.00 Node36 sends DIO to Node30
+96.00 Node46 sends DIO to Node15
+96.00 Node46 sends DIO to Node18
+96.00 Node46 sends DIO to Node42
+96.00 Node46 sends DIO to Node10
+96.28 Node48 network disruption
+96.28 Node48 starting neighbor discovery
+96.38 Node48 sends DIS to Node04
+96.38 Node48 sends DIS to Node11
+96.38 Node48 sends DIS to Node44
+96.38 Node04 received DIS from Node48; new neighbor: Node48
+96.38 Node11 received DIS from Node48; new neighbor: Node48
+96.38 Node44 received DIS from Node48; new neighbor: Node48
+97.00 Node17 sends DIO to Node00
+97.00 Node17 sends DIO to Node25
+97.00 Node17 sends DIO to Node26
+97.00 Node17 sends DIO to Node20
+97.00 Node27 sends DIO to Node01
+97.00 Node37 sends DIO to Node02
+97.00 Node37 sends DIO to Node33
+97.00 Node37 sends DIO to Node31
+97.00 Node47 sends DIO to Node13
+97.00 Node47 sends DIO to Node18
+97.00 Node47 sends DIO to Node38
+97.00 Node47 sends DIO to Node35
+98.00 Node08 sends DIO to Node09
+98.00 Node08 sends DIO to Node12
+98.00 Node08 sends DIO to Node30
+98.00 Node08 sends DIO to Node43
+98.00 Node08 sends DIO to Node45
+98.00 Node18 sends DIO to Node13
+98.00 Node18 sends DIO to Node15
+98.00 Node18 sends DIO to Node42
+98.00 Node18 sends DIO to Node46
+98.00 Node18 sends DIO to Node47
+98.00 Node18 sends DIO to Node10
+98.00 Node28 sends DIO to Node03
+98.00 Node28 sends DIO to Node19
+98.00 Node28 sends DIO to Node34
+98.00 Node28 sends DIO to Node45
+98.00 Node38 sends DIO to Node47
+98.00 Node38 sends DIO to Node49
+98.00 Node48 sends DIO to Node04
+98.00 Node48 sends DIO to Node11
+98.00 Node48 sends DIO to Node44
+99.00 Node09 sends DIO to Node08
+99.00 Node09 sends DIO to Node12
+99.00 Node09 sends DIO to Node30
+99.00 Node09 sends DIO to Node43
+99.00 Node09 sends DIO to Node45
+99.00 Node19 sends DIO to Node34
+99.00 Node19 sends DIO to Node45
+99.00 Node19 sends DIO to Node03
+99.00 Node19 sends DIO to Node28
+99.00 Node29 sends DIO to Node11
+99.00 Node29 sends DIO to Node14
+99.00 Node29 sends DIO to Node22
+99.00 Node29 sends DIO to Node32
+99.00 Node29 sends DIO to Node41
+99.00 Node39 sends DIO to Node40
+99.00 Node49 sends DIO to Node01
+99.00 Node49 sends DIO to Node38
+100.00 Node00 sends DIO to Node12
+100.00 Node00 sends DIO to Node17
+100.00 Node00 sends DIO to Node25
+100.00 Node00 sends DIO to Node26
+100.00 Node00 sends DIO to Node30
+100.00 Node00 sends DIO to Node36
+100.00 Node10 sends DIO to Node16
+100.00 Node10 sends DIO to Node18
+100.00 Node10 sends DIO to Node42
+100.00 Node10 sends DIO to Node46
+100.00 Node20 sends DIO to Node17
+100.00 Node20 sends DIO to Node23
+100.00 Node20 sends DIO to Node25
+100.00 Node20 sends DIO to Node26
+100.00 Node20 sends DIO to Node35
+100.00 Node30 sends DIO to Node00
+100.00 Node30 sends DIO to Node08
+100.00 Node30 sends DIO to Node09
+100.00 Node30 sends DIO to Node12
+100.00 Node30 sends DIO to Node36
+100.00 Node40 sends DIO to Node39
+100.25 Node07 sends DIS broadcast for neighbor discovery
+101.00 Node01 sends DIO to Node27
+101.00 Node01 sends DIO to Node49
+101.00 Node11 sends DIO to Node14
+101.00 Node11 sends DIO to Node22
+101.00 Node11 sends DIO to Node29
+101.00 Node11 sends DIO to Node04
+101.00 Node11 sends DIO to Node44
+101.00 Node11 sends DIO to Node48
+101.00 Node21 sends DIO to Node05
+101.00 Node21 sends DIO to Node24
+101.00 Node31 sends DIO to Node37
+101.00 Node41 sends DIO to Node02
+101.00 Node41 sends DIO to Node05
+101.00 Node41 sends DIO to Node29
+101.00 Node41 sends DIO to Node32
+102.00 Node02 sends DIO to Node37
+102.00 Node02 sends DIO to Node41
+102.00 Node12 sends DIO to Node00
+102.00 Node12 sends DIO to Node08
+102.00 Node12 sends DIO to Node09
+102.00 Node12 sends DIO to Node30
+102.00 Node12 sends DIO to Node43
+102.00 Node22 sends DIO to Node11
+102.00 Node22 sends DIO to Node14
+102.00 Node22 sends DIO to Node29
+102.00 Node32 sends DIO to Node05
+102.00 Node32 sends DIO to Node29
+102.00 Node32 sends DIO to Node41
+102.00 Node42 sends DIO to Node18
+102.00 Node42 sends DIO to Node46
+102.00 Node42 sends DIO to Node10
+103.00 Node03 sends DIO to Node19
+103.00 Node03 sends DIO to Node34
+103.00 Node03 sends DIO to Node28
+103.00 Node13 sends DIO to Node18
+103.00 Node13 sends DIO to Node47
+103.00 Node23 sends DIO to Node26
+103.00 Node23 sends DIO to Node20
+103.00 Node33 sends DIO to Node24
+103.00 Node33 sends DIO to Node37
+103.00 Node43 sends DIO to Node06
+103.00 Node43 sends DIO to Node08
+103.00 Node43 sends DIO to Node09
+103.00 Node43 sends DIO to Node12
+104.00 Node04 sends DIO to Node11
+104.00 Node04 sends DIO to Node44
+104.00 Node04 sends DIO to Node48
+104.00 Node14 sends DIO to Node11
+104.00 Node14 sends DIO to Node22
+104.00 Node14 sends DIO to Node29
+104.00 Node14 sends DIO to Node44
+104.00 Node24 sends DIO to Node21
+104.00 Node24 sends DIO to Node33
+104.00 Node34 sends DIO to Node19
+104.00 Node34 sends DIO to Node03
+104.00 Node34 sends DIO to Node28
+104.00 Node44 sends DIO to Node04
+104.00 Node44 sends DIO to Node11
+104.00 Node44 sends DIO to Node14
+104.00 Node44 sends DIO to Node48
+105.00 Node05 sends DIO to Node21
+105.00 Node05 sends DIO to Node32
+105.00 Node05 sends DIO to Node41
+105.00 Node15 sends DIO to Node18
+105.00 Node15 sends DIO to Node46
+105.00 Node25 sends DIO to Node00
+105.00 Node25 sends DIO to Node17
+105.00 Node25 sends DIO to Node26
+105.00 Node25 sends DIO to Node20
+105.00 Node35 sends DIO to Node20
+105.00 Node35 sends DIO to Node47
+105.00 Node45 sends DIO to Node08
+105.00 Node45 sends DIO to Node09
+105.00 Node45 sends DIO to Node19
+105.00 Node45 sends DIO to Node28
+106.00 Node06 sends DIO to Node16
+106.00 Node06 sends DIO to Node43
+106.00 Node16 sends DIO to Node06
+106.00 Node16 sends DIO to Node10
+106.00 Node26 sends DIO to Node00
+106.00 Node26 sends DIO to Node17
+106.00 Node26 sends DIO to Node23
+106.00 Node26 sends DIO to Node25
+106.00 Node26 sends DIO to Node20
+106.00 Node36 sends DIO to Node00
+106.00 Node36 sends DIO to Node30
+106.00 Node46 sends DIO to Node15
+106.00 Node46 sends DIO to Node18
+106.00 Node46 sends DIO to Node42
+106.00 Node46 sends DIO to Node10
+107.00 Node17 sends DIO to Node00
+107.00 Node17 sends DIO to Node25
+107.00 Node17 sends DIO to Node26
+107.00 Node17 sends DIO to Node20
+107.00 Node27 sends DIO to Node01
+107.00 Node37 sends DIO to Node02
+107.00 Node37 sends DIO to Node33
+107.00 Node37 sends DIO to Node31
+107.00 Node47 sends DIO to Node13
+107.00 Node47 sends DIO to Node18
+107.00 Node47 sends DIO to Node38
+107.00 Node47 sends DIO to Node35
+107.60 Node31 network disruption
+107.60 Node31 starting neighbor discovery
+107.70 Node31 sends DIS to Node37
+107.70 Node37 received DIS from Node31; new neighbor: Node31
+107.93 Node07 sends DIS broadcast for neighbor discovery
+108.00 Node08 sends DIO to Node09
+108.00 Node08 sends DIO to Node12
+108.00 Node08 sends DIO to Node30
+108.00 Node08 sends DIO to Node43
+108.00 Node08 sends DIO to Node45
+108.00 Node18 sends DIO to Node13
+108.00 Node18 sends DIO to Node15
+108.00 Node18 sends DIO to Node42
+108.00 Node18 sends DIO to Node46
+108.00 Node18 sends DIO to Node47
+108.00 Node18 sends DIO to Node10
+108.00 Node28 sends DIO to Node03
+108.00 Node28 sends DIO to Node19
+108.00 Node28 sends DIO to Node34
+108.00 Node28 sends DIO to Node45
+108.00 Node38 sends DIO to Node47
+108.00 Node38 sends DIO to Node49
+108.00 Node48 sends DIO to Node04
+108.00 Node48 sends DIO to Node11
+108.00 Node48 sends DIO to Node44
+108.04 Node03 network disruption
+108.04 Node03 starting neighbor discovery
+108.14 Node03 sends DIS to Node19
+108.14 Node03 sends DIS to Node28
+108.14 Node03 sends DIS to Node34
+108.14 Node19 received DIS from Node03; new neighbor: Node03
+108.14 Node28 received DIS from Node03; new neighbor: Node03
+108.14 Node34 received DIS from Node03; new neighbor: Node03
+109.00 Node09 sends DIO to Node08
+109.00 Node09 sends DIO to Node12
+109.00 Node09 sends DIO to Node30
+109.00 Node09 sends DIO to Node43
+109.00 Node09 sends DIO to Node45
+109.00 Node19 sends DIO to Node34
+109.00 Node19 sends DIO to Node45
+109.00 Node19 sends DIO to Node28
+109.00 Node19 sends DIO to Node03
+109.00 Node29 sends DIO to Node11
+109.00 Node29 sends DIO to Node14
+109.00 Node29 sends DIO to Node22
+109.00 Node29 sends DIO to Node32
+109.00 Node29 sends DIO to Node41
+109.00 Node39 sends DIO to Node40
+109.00 Node49 sends DIO to Node01
+109.00 Node49 sends DIO to Node38
+109.76 Node07 sends DIS broadcast for neighbor discovery
+110.00 Node00 sends DIO to Node12
+110.00 Node00 sends DIO to Node17
+110.00 Node00 sends DIO to Node25
+110.00 Node00 sends DIO to Node26
+110.00 Node00 sends DIO to Node30
+110.00 Node00 sends DIO to Node36
+110.00 Node10 sends DIO to Node16
+110.00 Node10 sends DIO to Node18
+110.00 Node10 sends DIO to Node42
+110.00 Node10 sends DIO to Node46
+110.00 Node20 sends DIO to Node17
+110.00 Node20 sends DIO to Node23
+110.00 Node20 sends DIO to Node25
+110.00 Node20 sends DIO to Node26
+110.00 Node20 sends DIO to Node35
+110.00 Node30 sends DIO to Node00
+110.00 Node30 sends DIO to Node08
+110.00 Node30 sends DIO to Node09
+110.00 Node30 sends DIO to Node12
+110.00 Node30 sends DIO to Node36
+110.00 Node40 sends DIO to Node39
+110.34 Node06 network disruption
+110.34 Node06 starting neighbor discovery
+110.44 Node06 sends DIS to Node16
+110.44 Node06 sends DIS to Node43
+110.44 Node16 received DIS from Node06; new neighbor: Node06
+110.44 Node43 received DIS from Node06; new neighbor: Node06
+111.00 Node01 sends DIO to Node27
+111.00 Node01 sends DIO to Node49
+111.00 Node11 sends DIO to Node14
+111.00 Node11 sends DIO to Node22
+111.00 Node11 sends DIO to Node29
+111.00 Node11 sends DIO to Node04
+111.00 Node11 sends DIO to Node44
+111.00 Node11 sends DIO to Node48
+111.00 Node21 sends DIO to Node05
+111.00 Node21 sends DIO to Node24
+111.00 Node31 sends DIO to Node37
+111.00 Node41 sends DIO to Node02
+111.00 Node41 sends DIO to Node05
+111.00 Node41 sends DIO to Node29
+111.00 Node41 sends DIO to Node32
+112.00 Node02 sends DIO to Node37
+112.00 Node02 sends DIO to Node41
+112.00 Node12 sends DIO to Node00
+112.00 Node12 sends DIO to Node08
+112.00 Node12 sends DIO to Node09
+112.00 Node12 sends DIO to Node30
+112.00 Node12 sends DIO to Node43
+112.00 Node22 sends DIO to Node11
+112.00 Node22 sends DIO to Node14
+112.00 Node22 sends DIO to Node29
+112.00 Node32 sends DIO to Node05
+112.00 Node32 sends DIO to Node29
+112.00 Node32 sends DIO to Node41
+112.00 Node42 sends DIO to Node18
+112.00 Node42 sends DIO to Node46
+112.00 Node42 sends DIO to Node10
+113.00 Node03 sends DIO to Node19
+113.00 Node03 sends DIO to Node28
+113.00 Node03 sends DIO to Node34
+113.00 Node13 sends DIO to Node18
+113.00 Node13 sends DIO to Node47
+113.00 Node23 sends DIO to Node26
+113.00 Node23 sends DIO to Node20
+113.00 Node33 sends DIO to Node24
+113.00 Node33 sends DIO to Node37
+113.00 Node43 sends DIO to Node08
+113.00 Node43 sends DIO to Node09
+113.00 Node43 sends DIO to Node12
+113.00 Node43 sends DIO to Node06
+114.00 Node04 sends DIO to Node11
+114.00 Node04 sends DIO to Node44
+114.00 Node04 sends DIO to Node48
+114.00 Node14 sends DIO to Node11
+114.00 Node14 sends DIO to Node22
+114.00 Node14 sends DIO to Node29
+114.00 Node14 sends DIO to Node44
+114.00 Node24 sends DIO to Node21
+114.00 Node24 sends DIO to Node33
+114.00 Node34 sends DIO to Node19
+114.00 Node34 sends DIO to Node28
+114.00 Node34 sends DIO to Node03
+114.00 Node44 sends DIO to Node04
+114.00 Node44 sends DIO to Node11
+114.00 Node44 sends DIO to Node14
+114.00 Node44 sends DIO to Node48
+115.00 Node05 sends DIO to Node21
+115.00 Node05 sends DIO to Node32
+115.00 Node05 sends DIO to Node41
+115.00 Node15 sends DIO to Node18
+115.00 Node15 sends DIO to Node46
+115.00 Node25 sends DIO to Node00
+115.00 Node25 sends DIO to Node17
+115.00 Node25 sends DIO to Node26
+115.00 Node25 sends DIO to Node20
+115.00 Node35 sends DIO to Node20
+115.00 Node35 sends DIO to Node47
+115.00 Node45 sends DIO to Node08
+115.00 Node45 sends DIO to Node09
+115.00 Node45 sends DIO to Node19
+115.00 Node45 sends DIO to Node28
+115.73 Node07 sends DIS broadcast for neighbor discovery
+116.00 Node06 sends DIO to Node16
+116.00 Node06 sends DIO to Node43
+116.00 Node16 sends DIO to Node10
+116.00 Node16 sends DIO to Node06
+116.00 Node26 sends DIO to Node00
+116.00 Node26 sends DIO to Node17
+116.00 Node26 sends DIO to Node23
+116.00 Node26 sends DIO to Node25
+116.00 Node26 sends DIO to Node20
+116.00 Node36 sends DIO to Node00
+116.00 Node36 sends DIO to Node30
+116.00 Node46 sends DIO to Node15
+116.00 Node46 sends DIO to Node18
+116.00 Node46 sends DIO to Node42
+116.00 Node46 sends DIO to Node10
+117.00 Node17 sends DIO to Node00
+117.00 Node17 sends DIO to Node25
+117.00 Node17 sends DIO to Node26
+117.00 Node17 sends DIO to Node20
+117.00 Node27 sends DIO to Node01
+117.00 Node37 sends DIO to Node02
+117.00 Node37 sends DIO to Node33
+117.00 Node37 sends DIO to Node31
+117.00 Node47 sends DIO to Node13
+117.00 Node47 sends DIO to Node18
+117.00 Node47 sends DIO to Node38
+117.00 Node47 sends DIO to Node35
+118.00 Node08 sends DIO to Node09
+118.00 Node08 sends DIO to Node12
+118.00 Node08 sends DIO to Node30
+118.00 Node08 sends DIO to Node43
+118.00 Node08 sends DIO to Node45
+118.00 Node18 sends DIO to Node13
+118.00 Node18 sends DIO to Node15
+118.00 Node18 sends DIO to Node42
+118.00 Node18 sends DIO to Node46
+118.00 Node18 sends DIO to Node47
+118.00 Node18 sends DIO to Node10
+118.00 Node28 sends DIO to Node19
+118.00 Node28 sends DIO to Node34
+118.00 Node28 sends DIO to Node45
+118.00 Node28 sends DIO to Node03
+118.00 Node38 sends DIO to Node47
+118.00 Node38 sends DIO to Node49
+118.00 Node48 sends DIO to Node04
+118.00 Node48 sends DIO to Node11
+118.00 Node48 sends DIO to Node44
+119.00 Node09 sends DIO to Node08
+119.00 Node09 sends DIO to Node12
+119.00 Node09 sends DIO to Node30
+119.00 Node09 sends DIO to Node43
+119.00 Node09 sends DIO to Node45
+119.00 Node19 sends DIO to Node34
+119.00 Node19 sends DIO to Node45
+119.00 Node19 sends DIO to Node28
+119.00 Node19 sends DIO to Node03
+119.00 Node29 sends DIO to Node11
+119.00 Node29 sends DIO to Node14
+119.00 Node29 sends DIO to Node22
+119.00 Node29 sends DIO to Node32
+119.00 Node29 sends DIO to Node41
+119.00 Node39 sends DIO to Node40
+119.00 Node49 sends DIO to Node01
+119.00 Node49 sends DIO to Node38
