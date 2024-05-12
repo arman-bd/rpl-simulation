@@ -98,7 +98,7 @@ The generated plot will illustrate nodes as points on a grid with lines connecti
 [Arman](https://github.com/arman-bd) and Team
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 [Aarhus University](https://au.dk) - For providing the academic environment and guidance necessary for this project.
