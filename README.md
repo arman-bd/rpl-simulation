@@ -1,4 +1,4 @@
-# RPL Protocol Simulation
+# RPL Simulation
 
 This repository contains the Python code for simulating the Routing over Low Power and Lossy Networks (RPL) protocol. The simulation uses SimPy, a discrete-event simulation framework, to model the behavior of nodes within a low-power lossy network, specifically focusing on the dynamics of RPL's routing mechanisms.
 
