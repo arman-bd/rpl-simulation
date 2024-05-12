@@ -19,19 +19,19 @@ def log(*args, **kwargs):
 def configure_simulation():
     print("Using default simulation parameters")
     config = {
-        "RANDOM_SEED": 111,
+        "RANDOM_SEED": 1111,
         "NUM_NODES": 50,
         "AREA_WIDTH": 125,
         "AREA_HEIGHT": 125,
         "MINIMUM_DISTANCE": 5,
-        "CONNECTION_RANGE": 20,
+        "CONNECTION_RANGE": 15,
         "DIO_INTERVAL": 10,
         "NODE_CREATION_INTERVAL": 1,
         "RUNTIME": 120
     }
     configure = input("Do you want to configure simulation parameters? y/[N]: ")
     if configure.lower() == 'y':
-        config["RANDOM_SEED"] = int(input("Enter Random Seed [111]: ") or config["RANDOM_SEED"])
+        config["RANDOM_SEED"] = int(input("Enter Random Seed [1111]: ") or config["RANDOM_SEED"])
         config["NUM_NODES"] = int(input("Enter Number of Nodes [50]: ") or config["NUM_NODES"])
         config["AREA_WIDTH"] = int(input("Enter Area Width in Meters [125]: ") or config["AREA_WIDTH"])
         config["AREA_HEIGHT"] = int(input("Enter Area Height in Meters [125]: ") or config["AREA_HEIGHT"])
@@ -84,26 +84,32 @@ class Node:
         # Send DIO message to all neighbors
         while True:
             for neighbor in self.neighbors:
-                self.env.process(neighbor.receive_dio(self))
-                log(f'{self.env.now:.2f} {self.node_id} sends DIO to {neighbor.node_id}')
+                if neighbor.parent != self:
+                    self.env.process(neighbor.receive_dio(self))
+                    log(f'{self.env.now:.2f} {self.node_id} sends DIO to {neighbor.node_id}')
             yield self.env.timeout(config["DIO_INTERVAL"])
     
     def receive_dio(self, sender):
-        # Receive DIO message from a neighbor
-        if not self.parent:
-            self.parent = sender
-            # Update network prefix
-            self.prefix = f'{sender.prefix}:{int(self.node_id[4:]):02x}'
-            yield self.env.process(self.send_dao())
-            log(f'{self.env.now:.2f} {self.node_id} received DIO from {sender.node_id}; new parent: {sender.node_id}; new prefix: {self.prefix}')
-        else:
-            # Check if sender is a Closer parent
-            if self.calculate_distance(sender.position) < self.calculate_distance(self.parent.position):
-                # Update network prefix
-                self.prefix = f'{sender.prefix}:{int(self.node_id[4:]):02x}'
+        own_prefix = f':{int(self.node_id[4:]):02x}'
+        cycle = False
+        if own_prefix in sender.prefix:
+            cycle = True
+        # Receive DIO message from a neighbor, avoid cycles
+        if cycle == False:
+            if not self.parent:
+                # Update parent and prefix
                 self.parent = sender
+                self.prefix = f'{sender.prefix}:{int(self.node_id[4:]):02x}'
                 yield self.env.process(self.send_dao())
-                log(f'{self.env.now:.2f} {self.node_id} received DIO from {sender.node_id}; new closer parent: {sender.node_id}; new prefix: {self.prefix}')
+                log(f'{self.env.now:.2f} {self.node_id} received DIO from new parent {sender.node_id}; new prefix: {self.prefix}')
+            else:
+                # Check if sender is a Closer parent
+                if sender.parent != self and self.calculate_distance(sender.position) < self.calculate_distance(self.parent.position) and sender.parent != self:
+                    # Update parent and prefix
+                    self.parent = sender
+                    self.prefix = f'{sender.prefix}:{int(self.node_id[4:]):02x}'
+                    yield self.env.process(self.send_dao())
+                    log(f'{self.env.now:.2f} {self.node_id} received DIO from closer parent {sender.node_id}; new prefix: {self.prefix}')
 
         yield self.env.timeout(0)
     
@@ -131,9 +137,15 @@ class Node:
             yield self.env.process(self.parent.receive_dao(self.prefix, self))  # Ensure using 'yield'
     
     def receive_dao(self, prefix, child):
+        # Reject route if cycle detected
+        child_prefix = f':{int(child.node_id[4:]):02x}'
+        cycle = False
+        if child_prefix in prefix:
+            log(f'{self.env.now:.2f} {self.node_id} received DAO from {child.node_id} with cycle, Prefix: {prefix}')
+            cycle = True
         # Receive DAO message from child and forward to parent
-        if self.parent and self.parent != child:
-            child.prefix = prefix
+        if self.parent and not cycle:
+            child.prefix = f'{child.parent.prefix}:{int(child.node_id[4:]):02x}'
             self.env.process(self.parent.receive_dao(prefix, self))
             log(f'{self.env.now:.2f} {self.node_id} received DAO from {child.node_id}, Prefix: {prefix}')
 
@@ -232,14 +244,21 @@ for node in nodes:
     bottom_padding = int(config["AREA_HEIGHT"]) * 0.05
     plt.text(node.position[0], node.position[1] - bottom_padding, node_name, fontsize=6, ha='center', va='bottom', color=node.color)
 
+    drawn_pair = []
     connected_neighbors = [neighbor for neighbor in node.neighbors if neighbor in nodes]
     for neighbor in connected_neighbors:
+        if (node, neighbor) in drawn_pair or (neighbor, node) in drawn_pair:
+            continue
         plt.plot([node.position[0], neighbor.position[0]], [node.position[1], neighbor.position[1]], color='blue', alpha=0.75, linestyle='dotted', linewidth=0.75)
+        drawn_pair.append((node, neighbor))
 
     # Currently Lost Neighbors: lost_neighbors - neighbors
     lost_neighbors = [neighbor for neighbor in node.lost_neighbors if neighbor not in connected_neighbors]
     for neighbor in lost_neighbors:
+        if (node, neighbor) in drawn_pair or (neighbor, node) in drawn_pair:
+            continue
         plt.plot([node.position[0], neighbor.position[0]], [node.position[1], neighbor.position[1]], color='red', alpha=0.75, linestyle='dotted', linewidth=0.75)
+        drawn_pair.append((node, neighbor))
 
 # Show plot
 plt.xlim(0, config["AREA_WIDTH"])
