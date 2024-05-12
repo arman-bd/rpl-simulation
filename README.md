@@ -61,30 +61,29 @@ The generated plot will illustrate nodes as points on a grid with lines connecti
 <img src="output.png">
 
 ```text
-0.00 Node00 created at (103.3963, 26.5954)
+0.00 Node00 created at (27.2001, 43.0476)
 0.00 Node00 starting neighbor discovery
-1.00 Node01 created at (21.2037, 24.2015)
+1.00 Node01 created at (23.4293, 110.5282)
 1.00 Node01 starting neighbor discovery
 1.00 Node00 sends DIS broadcast for neighbor discovery
-2.00 Node02 created at (27.5986, 89.5239)
+2.00 Node02 created at (34.1279, 5.2238)
 2.00 Node02 starting neighbor discovery
 2.00 Node01 sends DIS broadcast for neighbor discovery
-2.28 Node00 sends DIS broadcast for neighbor discovery
-3.00 Node03 created at (108.8647, 95.1618)
+2.18 Node00 sends DIS broadcast for neighbor discovery
+3.00 Node03 created at (14.9082, 74.5401)
 3.00 Node03 starting neighbor discovery
 3.00 Node02 sends DIS broadcast for neighbor discovery
-3.57 Node01 sends DIS broadcast for neighbor discovery
-4.00 Node04 created at (78.3705, 118.4513)
+3.97 Node01 sends DIS broadcast for neighbor discovery
+4.00 Node04 created at (88.4267, 123.1117)
 4.00 Node04 starting neighbor discovery
 4.00 Node03 sends DIS broadcast for neighbor discovery
-4.50 Node00 sends DIS broadcast for neighbor discovery
-4.64 Node01 sends DIS broadcast for neighbor discovery
-4.94 Node02 sends DIS broadcast for neighbor discovery
-5.00 Node05 created at (21.0677, 121.0056)
+4.03 Node02 sends DIS broadcast for neighbor discovery
+5.00 Node05 created at (60.6043, 57.3144)
 5.00 Node05 starting neighbor discovery
 5.00 Node04 sends DIS broadcast for neighbor discovery
-5.11 Node03 sends DIS broadcast for neighbor discovery
-6.00 Node06 created at (85.9161, 59.6546)
+5.18 Node03 sends DIS broadcast for neighbor discovery
+5.84 Node00 sends DIS broadcast for neighbor discovery
+6.00 Node06 created at (76.5026, 18.9528)
 6.00 Node06 starting neighbor discovery
 ...
 ...

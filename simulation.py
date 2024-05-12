@@ -238,6 +238,8 @@ plt.ylabel('Height (meters)')
 
 for node in nodes:
     plt.scatter(node.position[0], node.position[1], color=node.color, label=node.node_id)
+    # circle = plt.Circle(node.position, config["CONNECTION_RANGE"], color=node.color, fill=False, alpha=0.1, linestyle='dotted', linewidth=0.25)
+    # plt.gca().add_artist(circle)
 
     # Node Name
     node_name = node.node_id.replace('Node', 'N') + '\n' + node.prefix.replace('2001:db8::', '::')
