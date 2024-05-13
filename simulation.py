@@ -236,6 +236,7 @@ plt.title('Node Distribution in RPL Simulation')
 plt.xlabel('Width (meters)')
 plt.ylabel('Height (meters)')
 
+drawn_pair = []
 for node in nodes:
     plt.scatter(node.position[0], node.position[1], color=node.color, label=node.node_id)
     # circle = plt.Circle(node.position, config["CONNECTION_RANGE"], color=node.color, fill=False, alpha=0.1, linestyle='dotted', linewidth=0.25)
@@ -246,20 +247,20 @@ for node in nodes:
     bottom_padding = int(config["AREA_HEIGHT"]) * 0.05
     plt.text(node.position[0], node.position[1] - bottom_padding, node_name, fontsize=6, ha='center', va='bottom', color=node.color)
 
-    drawn_pair = []
+    
     connected_neighbors = [neighbor for neighbor in node.neighbors if neighbor in nodes]
     for neighbor in connected_neighbors:
-        if (node, neighbor) in drawn_pair or (neighbor, node) in drawn_pair:
+        if (node.node_id, neighbor.node_id) in drawn_pair or (neighbor.node_id, node.node_id) in drawn_pair:
             continue
         plt.plot([node.position[0], neighbor.position[0]], [node.position[1], neighbor.position[1]], color='blue', alpha=0.75, linestyle='dotted', linewidth=0.75)
-        drawn_pair.append((node, neighbor))
+        drawn_pair.append((node.node_id, neighbor.node_id))
 
     # Currently Lost Neighbors: lost_neighbors - neighbors
-    lost_neighbors = [neighbor for neighbor in node.lost_neighbors if neighbor not in connected_neighbors]
+    lost_neighbors = [neighbor for neighbor in node.lost_neighbors] # if neighbor not in connected_neighbors]
     for neighbor in lost_neighbors:
-        if (node, neighbor) in drawn_pair or (neighbor, node) in drawn_pair:
-            continue
-        plt.plot([node.position[0], neighbor.position[0]], [node.position[1], neighbor.position[1]], color='red', alpha=0.75, linestyle='dotted', linewidth=0.75)
+        # if (node, neighbor) in drawn_pair or (neighbor, node) in drawn_pair:
+        #     continue
+        plt.plot([node.position[0], neighbor.position[0]], [node.position[1], neighbor.position[1]], color='red', alpha=0.25, linestyle='solid', linewidth=0.75)
         drawn_pair.append((node, neighbor))
 
 # Show plot
